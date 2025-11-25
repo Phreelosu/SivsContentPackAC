@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 3465929714
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sivscontentpack_items
+      Dependencies:
+        Dependency_0: sivscontentpack_main
+        Dependency_1: sivscontentpack_artifacts
+    Info_1:
+      Name: sivscontentpack_elites
+      Dependencies:
+        Dependency_0: sivscontentpack_items
+        Dependency_1: sivscontentpack_main
+    Info_2:
+      Name: sivscontentpack_main
+      Dependencies: {}
+    Info_3:
+      Name: sivscontentpack_skills
+      Dependencies: {}
+    Info_4:
+      Name: sivscontentpack
+      Dependencies: {}
+    Info_5:
+      Name: sivscontentpack_objects
+      Dependencies:
+        Dependency_0: sivscontentpack_items
+        Dependency_1: sivscontentpack_main
+        Dependency_2: sivscontentpack
+    Info_6:
+      Name: sivscontentpack_artifacts
+      Dependencies:
+        Dependency_0: sivscontentpack_main
+    Info_7:
+      Name: sivscontentpack_survivors
+      Dependencies: {}
+    Info_8:
+      Name: sivscontentpack_champions
+      Dependencies: {}

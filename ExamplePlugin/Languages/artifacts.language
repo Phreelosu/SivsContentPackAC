@@ -1,0 +1,15 @@
+﻿{
+  "strings": {
+    "ARTIFACT_SUPERBEETLE_NAME": "Companionship",
+    "ARTIFACT_SUPERBEETLE_DESCRIPTION": "Recruit a Beetle who is invincible and deals massive damage.",
+
+    "ARTIFACT_SPECIALIZEDITEMS_NAME": "Artifact of Design",
+    "ARTIFACT_SPECIALIZEDITEMS_DESCRIPTION": "Enemies gain a copy of their unique item. Completing a stage gives enemies an additional stack.",
+    
+    "ARTIFACT_SHAREDDAMAGE_NAME": "Blood",
+    "ARTIFACT_SHAREDDAMAGE_DESCRIPTION": "When an ally takes damage, everyone takes damage.",
+    
+    "ARTIFACT_ENEMYMOBREGEN_NAME": "Mass",
+    "ARTIFACT_ENEMYMOBREGEN_DESCRIPTION": "Enemies regenerate health in large groups."
+  }
+}

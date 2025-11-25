@@ -1,0 +1,585 @@
+{
+  "strings": {
+    "ITEM_PROCBOOST_NAME": "Commemorative Coin",
+    "ITEM_PROCBOOST_PICKUP": "Slightly increases the chances of random effects succeeding.",
+    "ITEM_PROCBOOST_DESCRIPTION": "Increases the chances of success for <style=cIsUtility>all random effects</style> by <style=cIsDamage>10% <style=cStack>(+10% per stack)</style></style>.",
+    "ITEM_PROCBOOST_LORE": "Order: Novelty Coin\nTracking Number: 13************\nEstimated Delivery: 11/13/2056\nShipping Method: Standard\nShipping Address: Seattle, Earth\nShipping Details: \n\nHey, congrats on the anniversary!\n\nI had this nifty little coin commissioned to celebrate the occasion. Sure, these things aren't worth anything, but who cares? You did it! Ten whole years!\n\nHere's to ten more. Future's looking bright!",
+
+    "ITEM_GLASSSHIELD_NAME": "Glass Shield",
+    "ITEM_GLASSSHIELD_PICKUP": "Blocks an instance of fatal damage. Breaks on use.",
+    "ITEM_GLASSSHIELD_DESCRIPTION": "Blocks <style=cIsUtility>1</style> <style=cStack>(+1 per stack)</style> instance of <style=cDeath>fatal damage</style>. Breaks after use.",
+    "ITEM_GLASSSHIELD_LORE": "Order: Antique Shield\nTracking Number: 01************\nEstimated Delivery: 10/28/2056\nShipping Method: Fragile\nShipping Address: Museum of Saint Florian, Mars\nShipping Details: \n\nI REALLY hope this one doesn't break in transit this time.\n\nYou know how much it costs to commission one of these things? Jean is making a living, at least. Off MUSEUM FUNDS, might I add!\n\nThis exhibit better make a mint, you hear me?",
+
+    "ITEM_GLASSSHIELDBROKEN_NAME": "Glass Shield (Broken)",
+    "ITEM_GLASSSHIELDBROKEN_PICKUP": "A spent item with no remaining power.",
+    "ITEM_GLASSSHIELDBROKEN_DESCRIPTION": "A spent item with no remaining power.",
+    "ITEM_GLASSSHIELDBROKEN_LORE": "",
+
+    "ITEM_GOLDSTAR_NAME": "Gold Star",
+    "ITEM_GOLDSTAR_PICKUP": "Receive a reward of money and experience after completing a Hold-Out Zone.",
+    "ITEM_GOLDSTAR_DESCRIPTION": "Completing a <style=cIsDamage>hold-out zone</style> restores <style=cIsHealing>50 HP</style> plus an additional <style=cIsHealing>5%</style> <style=cStack>(+5% per stack)</style> of your max health, and grants a <style=cIsDamage>$25 reward <style=cStack>(+5 per stack, scales over time)</style></style> and <style=cIsUtility>10%</style> <style=cStack>(+10% per stack)</style> experience.",
+    "ITEM_GOLDSTAR_LORE": "<style=cMono>//-- AUTO TRANSCRIPTION FROM UES [Redacted] --//</style>\n\"Can you stop treating me like a child?\"\n\n\"But you did such a good job! And you're so close to being able to pick a prize from the Prize Box!\"\n\n\"By God, Julie! What do you think this is? A vacation? We're fighting for our lives out there, and you're in here playing with stickers!\"\n\n\"Well, you won't be getting any stars with THAT attitude. Though, I know what will pique your interest...\"\n\n\"Oh yeah? What could that possibly be?\"\n\n\"You're just ONE star away from being able to pick this nifty little missile launcher that was brought in by salvage. Surely it'll make things easier out there, right?\"\n\n\"...\"\n\n\"...\"\n\n\"...Fine. How many stars am I at now?\"\n\n\"Good boy. You get a gold star!\"\n\n\"*sigh*\"",
+
+    "ITEM_FLATHEALINCREASE_NAME": "Pasteurized Milk",
+    "ITEM_FLATHEALINCREASE_PICKUP": "Increases all healing by a flat 1.",
+    "ITEM_FLATHEALINCREASE_DESCRIPTION": "Increases all <style=cIsDamage>non-passive</style> healing by a flat <style=cIsHealing>1</style> <style=cStack>(+1 per stack)</style>.",
+    "ITEM_FLATHEALINCREASE_LORE": "Order: Eclipse Venutian Cow's Milk\nTracking Number: 99************\nEstimated Delivery: 01/05/2056\nShipping Method: Biological\nShipping Address: St. Geoffrey's Shelter for the Disenfranchised, New Houston, Venus\nShipping Details: \n\nMore milk for the needy. Ecologically sourced, without any preservatives - pasteurized to get any of that nasty bacteria out to keep it nice and healthy. Give those orphans a holiday to remember, okay?",
+
+    "ITEM_EXPERIENCEBOOST_NAME": "Survival Booklet",
+    "ITEM_EXPERIENCEBOOST_PICKUP": "Monsters drop more experience.",
+    "ITEM_EXPERIENCEBOOST_DESCRIPTION": "Enemies drop <style=cIsUtility>10%</style> <style=cStack>(+10% per stack)</style> <style=cIsUtility>more experience</style> upon death.",
+    "ITEM_EXPERIENCEBOOST_LORE": "",
+
+    "ITEM_DEBUFFBOSS_NAME": "Tau Construct",
+    "ITEM_DEBUFFBOSS_PICKUP": "Weakens bosses.",
+    "ITEM_DEBUFFBOSS_DESCRIPTION": "Deploy a Tau Construct to <style=cIsDamage>1 <style=cStack>(+1 per stack)</style> boss enemy</style>. Tau Constructs <style=cIsHealing>weaken</style> bosses, reducing armor by <style=cIsUtility>30</style>, and reducing movement speed and damage by <style=cIsDamage>40%</style>.",
+    "ITEM_DEBUFFBOSS_LORE": "",
+
+
+    "ITEM_RANDOMEXPLODE_NAME": "Powder Bomb",
+    "ITEM_RANDOMEXPLODE_PICKUP": "Once per stage, this bomb will randomly explode for massive damage.",
+    "ITEM_RANDOMEXPLODE_DESCRIPTION": "Once per stage, this bomb will randomly <style=cIsDamage>explode</style> for <style=cIsDamage>400% <style=cStack>(+400% per stack)</style> damage</style> while in combat. Regenerates at the <style=cIsUtility>beginning of the next stage</style>.",
+    "ITEM_RANDOMEXPLODE_LORE": "",
+
+    "ITEM_RANDOMEXPLODEUSED_NAME": "Powder Bomb (Used)",
+    "ITEM_RANDOMEXPLODEUSED_PICKUP": "A spent item with no remaining power. Regenerates at the beginning of the next stage.",
+    "ITEM_RANDOMEXPLODEUSED_DESCRIPTION": "A spent item with no remaining power. Regenerates at the beginning of the next stage.",
+    "ITEM_RANDOMEXPLODEUSED_LORE": "",
+
+    "ITEM_HEALONCOOLDOWN_NAME": "Water Bottle",
+    "ITEM_HEALONCOOLDOWN_PICKUP": "Receive a small heal when a skill comes off cooldown.",
+    "ITEM_HEALONCOOLDOWN_DESCRIPTION": "When a skill comes off cooldown, heal for <style=cIsHealing>5 HP</style> plus an additional <style=cIsHealing>1% <style=cStack>(+1% per stack)</style></style> of your <style=cIsHealth>Max Health</style>.",
+    "ITEM_HEALONCOOLDOWN_LORE": "\"Gosh, it sure is hot out here.\" Emily complained. \"If only I had remembered to bring my Eclipse Zero Water Bottle, the bio-degradable, recyclable water bottle capable of holding up to 15 oz.!\"\n\n\"Well don't worry!\" Chen said, with a twinkle in his eye and a cold, perspirating Eclipse Zero Water Bottle in his hand. \"You can get them at any Eclipse Zero Vending Machine, for only the low, low price of 10 credits!\"\n\n\"Wow,\" Emily marveled. \"Thanks, Eclipse! Quenching thirsts no matter where you go!\" The two then drank from their Eclipse Zero Water Bottles, happy and satisfied from a job well done. And such satisfaction could only be delivered by the crisp, clear water of the Eclipse Zero Water Bottle.\n\n<style=cMono>This log entry was brought to you by Eclipse: The Galactic Quencher</style>",
+
+    "ITEM_DUPLICATOR_NAME": "Commercial Duplicator",
+    "ITEM_DUPLICATOR_PICKUP": "Remembers the next item you pick up. On removal, create a copy of the remembered item.",
+    "ITEM_DUPLICATOR_DESCRIPTION": "Remembers the <style=cIsUtility>next item</style> you pick up. Upon this item's removal, <style=cIsUtility>duplicate</style> the remembered item, with <style=cIsDamage>0</style> <style=cStack>(+1 per stack)</style> extra <style=cIsDamage>30% chance</style> rolls for an additional copy.",
+    "ITEM_DUPLICATOR_LORE": "",
+
+    "ITEM_HEALONLEVELUP_NAME": "Celebratory Cupcake",
+    "ITEM_HEALONLEVELUP_PICKUP": "Heal and gain brief invincibility on level up.",
+    "ITEM_HEALONLEVELUP_DESCRIPTION": "Upon leveling up, heal for <style=cIsHealing>40%</style> <style=cStack>(+10% per stack)</style> max health and become <style=cIsUtility>invulnerable</style> for <style=cIsDamage>1 second.</style>",
+    "ITEM_HEALONLEVELUP_LORE": "Order: Cupcake (Home-made)\nTracking Number: 01************\nEstimated Delivery: 09/04/2056\nShipping Method: Priority\nShipping Address: Fort Mason, Outpost #XI, Pluto\nShipping Details: \n\nWanted to write to you to let you know we all miss you and hope you have a safe deployment. I baked this for your birthday, hope it's not held up in transit. Miss you sweetie\n\nLove, Mom",
+
+    "ITEM_TELEPORTERARMORZONE_NAME": "Police Tape",
+    "ITEM_TELEPORTERARMORZONE_PICKUP": "Hold-out zones deploy a safe area that increases the armor of allies.",
+    "ITEM_TELEPORTERARMORZONE_DESCRIPTION": "Hold-out zones deploy a safe area that increases the <style=cIsDamage>armor</style> of all allies by <style=cIsUtility>50</style> <style=cStack>(+15 per stack)</style>.",
+    "ITEM_TELEPORTERARMORZONE_LORE": "Order: Perimeter Tape\nTracking Number: 92************\nEstimated Delivery: 11/08/2056\nShipping Method: Priority\nShipping Address: Law Enforcement Training Center, Venus\nShipping Details: \n\nFor your trainees. It's tougher than normal tape, and will help section off crime scenes. Or be used to prank cadets by taping them to the ceiling. If that happens, just apply some warm water and hydrochloric acid to the tape and wait for 12 hours. You never know what these cadets will do to pass the time.",
+
+    "ITEM_MONEYOBJECTONSPAWN_NAME": "Meteorite Fragment",
+    "ITEM_MONEYOBJECTONSPAWN_PICKUP": "Spawns a Meteorite Fragment that can be broken for money at the beginning of the stage.",
+    "ITEM_MONEYOBJECTONSPAWN_DESCRIPTION": "At the beginning of the stage, spawn a <style=cIsDamage>Meteorite Fragment</style> that can be destroyed for up to <style=cIsUtility>$75 </style><style=cStack>(+25 per stack, scales over time)</style>.",
+    "ITEM_MONEYOBJECTONSPAWN_LORE": "",
+
+    "ITEM_RUNETABLET_CHANCE_NAME": "Rune of Chance",
+    "ITEM_RUNETABLET_CHANCE_PICKUP": "After succeeding at a Chance Shrine, chance to gain an additional use.",
+    "ITEM_RUNETABLET_CHANCE_DESCRIPTION": "WIP",
+    "ITEM_RUNETABLET_CHANCE_LORE": "",
+
+    "ITEM_RUNETABLET_BLOOD_NAME": "Rune of Chance",
+    "ITEM_RUNETABLET_BLOOD_PICKUP": "After succeeding at a Chance Shrine, chance to gain an additional use.",
+    "ITEM_RUNETABLET_BLOOD_DESCRIPTION": "WIP",
+    "ITEM_RUNETABLET_BLOOD_LORE": "",
+
+    "ITEM_RUNETABLET_SOUL_NAME": "Rune of Chance",
+    "ITEM_RUNETABLET_SOUL_PICKUP": "After succeeding at a Chance Shrine, chance to gain an additional use.",
+    "ITEM_RUNETABLET_SOUL_DESCRIPTION": "WIP",
+    "ITEM_RUNETABLET_SOUL_LORE": "",
+
+    "ITEM_GOLDIDOL_NAME": "Idol of Gold",
+    "ITEM_GOLDIDOL_PICKUP": "At least one Shrine of Gold will always appear. When entering Hidden Realm: Gilded Coast, Halcyon Beacons may start off repaired.",
+    "ITEM_GOLDIDOL_DESCRIPTION": "Ensures that a <style=cShrine>Shrine of Gold</style> will appear. Upon entering <style=cIsDamage>Hidden Realm: Gilded Coast</style>, gain <style=cIsUtility>1 <style=cStack>(+1 per stack)</style> 30% chance roll</style> to immediately repair a <style=cShrine>Halcyon Beacon</style> for free.",
+    "ITEM_GOLDIDOL_LORE": "<style=cMono>Lab Dissection Analysis File</style>\n\nSubject: Idol of Gold\nTechnician: Dema \"Dembones\" Brown\nTable Spec: Archaeological Kit\nNotes: \n\n> Subject is a strange idol recovered by the salvage team. Seems to be native to the planet\n\n> Idol is composed of a gold alloy, presumably found on the planet\n\n> The idol is inscribed with a rune on its face. Idol gleams brilliantly in the light\n\n> Idol reflects light beautifully. Casts gorgeous caustics along the walls if light hits it at just the right angle\n\n> If I hold it close, I can almost hear something... a tone?\n\n> Its. mesmerizing\n\n > i can hear her song\n\n> \n\n> Uh\n\n> I think I zoned out for a moment\n\n> Wait\n\n> Five hours?????\n\n> I think I need to go to bed",
+
+    "ITEM_RUNETABLET_ORDER_NAME": "Rune of Chance",
+    "ITEM_RUNETABLET_ORDER_PICKUP": "After succeeding at a Chance Shrine, chance to gain an additional use.",
+    "ITEM_RUNETABLET_ORDER_DESCRIPTION": "WIP",
+    "ITEM_RUNETABLET_ORDER_LORE": "",
+
+    "ITEM_RUNETABLET_WOODS_NAME": "Rune of Chance",
+    "ITEM_RUNETABLET_WOODS_PICKUP": "After succeeding at a Chance Shrine, chance to gain an additional use.",
+    "ITEM_RUNETABLET_WOODS_DESCRIPTION": "WIP",
+    "ITEM_RUNETABLET_WOODS_LORE": "",
+
+    "ITEM_RUNETABLET_MOUNTAIN_NAME": "Rune of Chance",
+    "ITEM_RUNETABLET_MOUNTAIN_PICKUP": "After succeeding at a Chance Shrine, chance to gain an additional use.",
+    "ITEM_RUNETABLET_MOUNTAIN_DESCRIPTION": "WIP",
+    "ITEM_RUNETABLET_MOUNTAIN_LORE": "",
+
+    "ITEM_RUNETABLET_COMBAT_NAME": "Rune of Chance",
+    "ITEM_RUNETABLET_COMBAT_PICKUP": "After succeeding at a Chance Shrine, chance to gain an additional use.",
+    "ITEM_RUNETABLET_COMBAT_DESCRIPTION": "WIP",
+    "ITEM_RUNETABLET_COMBAT_LORE": "",
+
+    "ITEM_DROPYELLOWITEMONKILL_NAME": "Trophy Hunter's Medallion",
+    "ITEM_DROPYELLOWITEMONKILL_PICKUP": "Monsters have a chance to drop their trophies on death. Consumed on use.",
+    "ITEM_DROPYELLOWITEMONKILL_DESCRIPTION": "If an enemy is capable of dropping a <style=cShrine>unique item</style>, gain <style=cIsUtility>1</style> <style=cStack>(+1 per stack)</style> <style=cIsDamage>30% </style> chance to drop that item on kill. Consumed on use.",
+    "ITEM_DROPYELLOWITEMONKILL_LORE": "Hadbury staggered through the brush. He was wounded, out of ammunition, and separated from his huntsmen. \"Damn...\" Hadbury growled as he slumped down against a tree. This hunt was a disaster - in his hubris to find greater and greater hunts, he had finally met his match.\n\nThe bushes around him shook with activity. Muffled alien chatter could be heard - they weren't even trying to be subtle at this point. Hadbury was dead to rights. \"Not until I draw my final breath,\" Hadbury growled, preparing his machete. \"You damned vermin, you think you're smarter than me!?\" As he stood, a feline alien slinked out of the overgrowth. Its carved mask was stained with blood - blood Hadbury knew belonged to Rainsford and his huntsmen. So much for them.\n\n\"I am the hunter, and you are the hunted!\" Hadbury screamed as he charged, bringing his machete down on the small creature. It didn't even bother to dodge, and the effort of his attack caused Hadbury's wounded ankle to buckle. As he fell to the ground, the last thing Hadbury saw was the glint of an arrowhead from the bushes, aimed directly at his head. \"Clever girl...\"",
+
+    "ITEM_DROPYELLOWITEMONKILLCONSUMED_NAME": "Trophy Hunter's Medallion (Consumed)",
+    "ITEM_DROPYELLOWITEMONKILLCONSUMED_PICKUP": "Looks kind of cool, I guess?",
+    "ITEM_DROPYELLOWITEMONKILLCONSUMED_DESCRIPTION": "Looks kind of cool, I guess?",
+    "ITEM_DROPYELLOWITEMONKILLCONSUMED_LORE": "Ahoy!",
+
+    "ITEM_BULLETSINTOLASERS_NAME": "LED Array",
+    "ITEM_BULLETSINTOLASERS_PICKUP": "Bullet attacks are replaced with piercing lasers that ignore armor and travel farther.",
+    "ITEM_BULLETSINTOLASERS_DESCRIPTION": "Bullet attacks are replaced by <style=cIsDamage>piercing lasers</style> that ignore up to <style=cIsDamage>20 <style=cStack>(+5 per stack)</style></style> points of armor and have <style=cIsUtility>+25m <style=cStack>(+15m per stack)</style></style> range. Prevents damage from decreasing at longer distances.",
+    "ITEM_BULLETSINTOLASERS_LORE": "",
+
+    "ITEM_PROJECTILEBOOST_NAME": "Modular Thruster",
+    "ITEM_PROJECTILEBOOST_PICKUP": "Your projectiles are faster, have better tracking, and deal more damage when landing a critical strike.",
+    "ITEM_PROJECTILEBOOST_DESCRIPTION": "Projectiles travel <style=cIsUtility>20% faster <style=cStack>(+7% per stack)</style></style>, have <style=cIsUtility>+30% better tracking</style>, and deal an additional <style=cIsDamage>+15% <style=cStack>(+5% per stack)</style> TOTAL damage</style> when landing a critical strike.",
+    "ITEM_PROJECTILEBOOST_LORE": "\"Voyager Assembly Kits:\n\nBuild your own space ship! Want to explore the stars from the comfort of your own back yard? Buy one of the Voyager Assembly Kits or visit the nearest location to get your very own buildable ship!\n\nWith hundreds of modular components, the customization is out of this world! Build the star ship of your dreams and pilot it using sophisticated remote control technology!\"\n\n- Eclipse Digest",
+
+    "ITEM_REVENGEDAMAGEBONUS_NAME": "Know Thy Enemy",
+    "ITEM_REVENGEDAMAGEBONUS_PICKUP": "Deal bonus damage to what killed you in a previous run.",
+    "ITEM_REVENGEDAMAGEBONUS_DESCRIPTION": "Deal <style=cIsDamage>+100% <style=cStack>(+100% per stack)</style> TOTAL damage</style> to your <style=cDeath>enemy</style>. Your <style=cDeath>enemy</style> is the monster that <style=cIsUtility>last killed you in a previous run</style>. If no such monster exists, your <style=cDeath>enemy</style> is your nemesis, as defined in your <style=cUserSetting>Profile History</style>. If neither condition can be met, <style=cIsDamage>instead receive $50 <style=cStack>(+50 per stack, scales over time)</style> on pickup</style>.",
+    "ITEM_REVENGEDAMAGEBONUS_LORE": "",
+
+    "ITEM_EXTRACHANCESHRINEUSE_NAME": "Sigil of Chance",
+    "ITEM_EXTRACHANCESHRINEUSE_PICKUP": "Chance to use a Shrine of Chance an extra time.",
+    "ITEM_EXTRACHANCESHRINEUSE_DESCRIPTION": "<style=cIsUtility>40% <style=cStack>(+10% per stack)</style></style> chance when successfully activating a <style=cShrine>Shrine of Chance</style> to gain an additional use, up to <style=cIsDamage>3 <style=cStack>(+1 per stack)</style></style> times per stage.",
+    "ITEM_EXTRACHANCESHRINEUSE_LORE": "",
+
+    "ITEM_UPGRADECHESTS_NAME": "Law Suit",
+    "ITEM_UPGRADECHESTS_PICKUP": "Upgrades a random chest to the next tier when entering a stage.",
+    "ITEM_UPGRADECHESTS_DESCRIPTION": "At the beginning of the stage, <style=cIsUtility>upgrade</style> a random chest to the next tier, with <style=cIsUtility>0 <style=cStack>(+1 per stack)</style> 30% chance roll(s)</style> for an additional chest to be upgraded.",
+    "ITEM_UPGRADECHESTS_LORE": "<style=cMono>Welcome to UES Administrative Portal. Please enter your log-in credentials:\n>> Username:</style> admin_01\n<style=cMono>>> Password:</style>****************\n<style=cMono>Verifying... complete!\nWelcome, admin_01! You have [1] new case files to review.\nOpen file 1005831BBEFA8.MSG?\n>> </style>y\n<style=cMono>Loading file...\nParsing...\nGenerating transcription...\nComplete!\nPrinting text for review:\n\n// -- Transcription of 1005831BBEFA8.docx -- //</style>\n\nYou guys have SOME nerve, you know that? Expedited shipping on my next order with UES. What a load of ||||||||! My husband was on the Contact Light, and all I get is... faster shipping? You're heartless. What am I supposed to tell my children? What do I tell them about their father? I've just been saying his business trip has been keeping him really busy. A part of me wants to believe that, I think. Oh, god... Barry...\n\nAhem. UES has blood on its hands. You can't cover up what happened to the Contact Light forever. You'll be hearing from my lawyers! Even if I can't bleed you dry, I'll be damn sure to hit you where it hurts.\n<style=cMono>// -- End of Transcription -- //\nFile judged to be spam by 15 out of 24 smart filters. Move 1005831BBEFA8.MSG to recycle bin?\n>></style>y",
+
+    "ITEM_EXTRAPRINTERROLL_NAME": "Hobby Kit",
+    "ITEM_EXTRAPRINTERROLL_PICKUP": "Gain a chance to get extra items out of 3D printers.",
+    "ITEM_EXTRAPRINTERROLL_DESCRIPTION": "When using a 3D printer or similar interactable, gain <style=cIsUtility>+1</style> <style=cStack>(+1 per stack)</style> <style=cIsHealing>20% chance</style> to get an extra item.",
+    "ITEM_EXTRAPRINTERROLL_LORE": "",
+
+    "ITEM_BLOCKLOWDAMAGEHITS_NAME": "Nuclear Cuisine",
+    "ITEM_BLOCKLOWDAMAGEHITS_PICKUP": "Blocks low damage hits.",
+    "ITEM_BLOCKLOWDAMAGEHITS_DESCRIPTION": "All instances of damage that are less than <style=cIsDamage>10%</style> <style=cStack>(+10% per stack, diminishing returns)</style> of your combined health are <style=cIsUtility>blocked</style>.",
+    "ITEM_BLOCKLOWDAMAGEHITS_LORE": "Order: Neutronium (100 kg)\nTracking Number: 01************\nEstimated Delivery: 12/05/2056\nShipping Method: [CLASSIFIED]\nShipping Address: [CLASSIFIED]\nShipping Details: \n\nIn your face!\n\nWho said neutronium couldn't be extracted from a neutron star? Who said it couldn't remain stable in an environment without such extreme conditions?\n\nOh yeah, that was you. You can keep your jabs and doubts while I go claim my Nobel prize.",
+
+    "ITEM_FRENZYONBOSSKILL_NAME": "Golden Glory",
+    "ITEM_FRENZYONBOSSKILL_PICKUP": "Enter a frenzy after killing a boss that makes you invulnerable and lucky.",
+    "ITEM_FRENZYONBOSSKILL_DESCRIPTION": "Killing a boss <style=cIsDamage>sends you into a frenzy</style> for <style=cIsDamage>10</style> <style=cStack>(+10 per stack)</style> seconds. The frenzy makes you <style=cIsUtility>invulnerable</style> and <style=cIsHealing>gives all random effects an extra roll for a better outcome</style>.",
+    "ITEM_FRENZYONBOSSKILL_LORE": "\"The Martian Uprising of 2056, also known as the Red Banquet, was a brutal and bloody series of revolts launched by the working class of Mars, whose legal system heavily favored its upper class citizens. A notable moment from the Uprising is the public execution of Baron Charles Monroe, owner and CEO of a major Martian banking chain. Monroe was assassinated by a hired mercenary just minutes before the working class stormed his manor and dragged his body out into the square. The workers performed a mock execution, using an antique saber made of solid gold found in Monroe's manor, to the jubilation of Mars' workers.'\"\n\n- History of the Red Planet, Volume XII",
+
+    "ITEM_SHIELDBREAKER_NAME": "Shieldbreaker",
+    "ITEM_SHIELDBREAKER_PICKUP": "Your attacks ignore enemy armor and deal more damage to shields and barrier.",
+    "ITEM_SHIELDBREAKER_DESCRIPTION": "Your attacks <style=cIsDamage>ignore enemy armor</style> and deal an additional <style=cIsDamage>+50%</style> <style=cStack>(+50% per stack)</style> bonus damage to <style=cIsUtility>shields</style> and <style=cIsDamage>barrier</style>.",
+    "ITEM_SHIELDBREAKER_LORE": "Order: Antique Hammer\nTracking Number: 0505**********\nEstimated Delivery: 05/05/2056\nShipping Method: Priority\nShipping Address: Museum of 2019, Jungle VII, Earth\nShipping Details: \n\nAh, now this beauty will make a great exhibit.",
+
+    "ITEM_PLACEBO_NAME": "Critical Placebo",
+    "ITEM_PLACEBO_PICKUP": "It really works!",
+    "ITEM_PLACEBO_DESCRIPTION": "All of your attacks trigger your <style=cIsDamage>On-Critical-Strike</style> items. Critical Strikes have their <style=cIsUtility>damage increased</style> by <style=cIsDamage>+50% <style=cStack>(+50% per stack)</style></style>.",
+    "ITEM_PLACEBO_LORE": "Order: Disacchiride Sucrose Pills (50 mg)\nTracking Number: 40************\nEstimated Delivery: 01/21/2056\nShipping Method: Medical\nShipping Address: Apartment 54-b, Mount Gilfeld Heights, Uranus\nShipping Details: \n\nYour son really has an active imagination, doesn't he? Try these, they're sugar pills - if he asks, call them disaccharide sucrose. Sounds fancy enough, right?\n\nDon't worry, this is just a phase. Maybe next time, though, make sure he's old enough before he gets his hands on that documentary? It'll give anyone nightmares, let alone kids.",
+
+    "ITEM_HEALTHBASEDAMAGEBONUS_NAME": "Dragon Blood",
+    "ITEM_HEALTHBASEDAMAGEBONUS_PICKUP": "Deal bonus damage based off your max health. Increases max health.",
+    "ITEM_HEALTHBASEDAMAGEBONUS_DESCRIPTION": "Increases <style=cIsHealth>max health</style> by <style=cIsUtility>25% </style><style=cStack>(+25% per stack)</style>. Your attacks deal <style=cIsDamage>bonus damage</style> equal to 25% of your <style=cIsHealth>max health</style>.",
+    "ITEM_HEALTHBASEDDAMAGEBONUS_LORE": "\"The Europan Great Dragon was hunted to near-extinction for many reasons - some simply wanted the fame and glory of felling such a mighty beast, while others aimed for resources in Dragon territory. A popular urban legend among the elites of Europa claimed that the blood of a Great Dragon could extend the lifespan of those who drank it, infusing the recipient with draconic strength. Once the population of the Great Dragons dropped below critical levels, several governments throughout the Sol system petitioned for the Great Dragon to be placed under federal protection. Ever since then, the distribution of Great Dragon blood has been taken over by black market vendors looking to make easy money off of the rich.\"\n\n- History of Xenobiology, Volume III",
+
+    "ITEM_SWORD_NAME": "Excalibur",
+    "ITEM_SWORD_PICKUP": "Recruit a living sword.",
+    "ITEM_SWORD_DESCRIPTION": "Recruit a living sword that has <style=cIsDamage>400%</style> damage.",
+    "ITEM_SWORD_LORE": "",
+
+
+    "ITEM_VOIDSEEDSPAWNER_NAME": "Abyssal Seedpod",
+    "ITEM_VOIDSEEDSPAWNER_PICKUP": "Entering a new stage consumes this item to spawn a <style=cIsVoid>Void Seed</style>. <style=cDeath>All Void Seeds are larger and more dangerous.</style>",
+    "ITEM_VOIDSEEDSPAWNER_DESCRIPTION": "Entering a new stage consumes this item to spawn a <style=cIsVoid>Void Seed</style>. All <style=cIsVoid>Void Seeds</style> in the stage are <style=cDeath>150% more dangerous</style> and <style=cDeath>30% larger</style>, but <style=cIsDamage>yield 150% more rewards</style>.",
+    "ITEM_VOIDSEEDSPAWNER_LORE": "They were getting bold.\n\nProvidence gazed at a perforation in space-time as he paced around the ruined bridge of the human star ship. A small peep hole, delicately puncturing the veil between this world and the next. Not big enough for anything to cross, but just large enough to peek through. Providence already knew who was on the other side.\n\nProvidence was no stranger to the inhabitants of the Void. Multiple attempts to seize his home and the creatures who lived upon it had been made, and each and every one of them ended in Providence's overwhelming victory. They simply stood no chance.\n\nSo then why would they resume surveillance? Now, at a time like this?\n\nProvidence scowled. He has enough on his shoulders already - dealing with the influence of his wicked brother, soothing the worries of his wards, and exterminating any survivors of the crashed star ship. What could they see that he couldn't? What was Providence missing? A sense of dread washed over the Bulwark as the rift's phantasmal iris dilated.\n\nA loud CLUNK and mechanical whirring jarred Providence from his thoughts. The blast door to the Bridge was opening. Providence turned away from the rift. Whatever the inhabitants of the Void had planned, he could deal with them later.\n\nAs Providence confronted the survivor, the Void watched. The Void captured every moment, every stray bullet and errant swing of a crystalline blade. The Void captured everything, down to the moment Providence collapsed and the survivor left this planet.\n\nSatisfied, the rift closed. The Void had seen enough. The time had come at last.",
+
+    "ITEM_PIGGYBANK_NAME": "Boarlit Bank",
+    "ITEM_PIGGYBANK_PICKUP": "Lunar Coins are stored in the Boarlit Bank <style=cDeath>instead of being added to your total</style>. Completing your run grants all stored Lunar Coins, plus interest.",
+    "ITEM_PIGGYBANK_DESCRIPTION": "Picking up <style=cLunarObjective>Lunar Coins</style> stores them in the bank <style=cDeath>instead of being added to your total</style>. After <style=cIsDamage>completing your run</style>, gain <style=cIsUtility>175%</style> <style=cStack>(+25% per stack)</style> of the amount of <style=cLunarObjective>coins</style> sent to the bank, rounded down.",
+    "ITEM_PIGGYBANK_LORE": "",
+
+    "ITEM_OMINOUSLOANNOTE_NAME": "Ominous Loan Note",
+    "ITEM_OMINOUSLOANNOTE_PICKUP": "Gain $200 on pickup. <style=cDeath>All gold gained goes towards paying off your debt, with interest</style>.",
+    "ITEM_OMINOUSLOANNOTE_DESCRIPTION": "Gain <style=cIsDamage>$200 <style=cStack>(+$200 per stack)</style></style> on pickup. All gold gained goes towards paying off your debt, with <style=cDeath>10% interest per stage</style>. Upon paying off your debt, this item is removed.",
+    "ITEM_OMINOUSLOANNOTE_LORE": "",
+
+    "ITEM_CHIMERA_NAME": "Hungry Chimera",
+    "ITEM_CHIMERA_PICKUP": "Every minute, <style=cDeath>feed the Chimera an item</style> to gain a permanent stat boost.",
+    "ITEM_CHIMERA_DESCRIPTION": "Every minute, the Chimera <style=cDeath>eats 1 <style=cStack>(+1 per stack)</style> item</style> and converts it into a <style=cIsUtility>permanent stat boost</style>. Can grant the following boosts:\n\nIncreases max health by <style=cIsHealing>10%</style> <style=cStack>(+10% per stack)</style>.\n\nIncreases max shields by <style=cIsUtility>10%</style> <style=cStack>(+10% per stack)</style>.\n\nIncreases health regeneration by <style=cIsHealing>20%</style> <style=cStack>(+20% per stack)</style>.\n\nIncreases base damage by <style=cIsDamage>10%</style> <style=cStack>(+10% per stack)</style>.\n\nIncreases critical strike chance and damage by <style=cIsDamage>7%</style> <style=cStack>(+7% per stack)</style> each.\n\nIncreases attack and movement speed by <style=cIsUtility>10%</style> <style=cStack>(+10% per stack)</style> each.\n\nReduces skill cooldowns by <style=cIsUtility>0.5 seconds</style> <style=cStack>(+0.5 per stack)</style>.\n\nIncreases luck by <style=cIsHealing>1</style> <style=cStack>(+1 per stack)</style>.",
+    "ITEM_CHIMERA_LORE": "What troubles you, brother?\n\n...I see. It is as I tell you, brother. Those creatures are not like us. They are not long for this world.\n\n...Enough tears, brother. Let me show you something.\n\nObserve - note the flame at its center. This device can siphon the power from objects and imbue it into a recipient. Now, see what happens when I cast the worm's body into the fire.\n\nAh, not so fast! Have faith in me, brother.\n\nBehold! Do you not feel the worm's strength coursing through you? Even in death, your pet still walks alongside you.\n\nNow, wipe away those tears, brother. I want to see you smile when I show you my next design.",
+
+    "ITEM_CHIMERAHEALTH_NAME": "Chimera's Love (Health)",
+    "ITEM_CHIMERAHEALTH_PICKUP": "Increases max health.",
+    "ITEM_CHIMERAHEALTH_DESCRIPTION": "Increases max health by <style=cIsHealing>10%</style> <style=cStack>(+10% per stack)</style>.",
+
+    "ITEM_CHIMERASHIELD_NAME": "Chimera's Love (Shields)",
+    "ITEM_CHIMERASHIELD_PICKUP": "Increases max shields.",
+    "ITEM_CHIMERASHIELD_DESCRIPTION": "Increases max shields by <style=cIsUtility>10%</style> <style=cStack>(+10% per stack)</style>.",
+
+    "ITEM_CHIMERAREGEN_NAME": "Chimera's Love (Regeneration)",
+    "ITEM_CHIMERAREGEN_PICKUP": "Increases health regeneration.",
+    "ITEM_CHIMERAREGEN_DESCRIPTION": "Increases health regeneration by <style=cIsHealing>2 <style=cStack>(+2 per stack)</style> HP/s</style>.",
+
+    "ITEM_CHIMERADAMAGE_NAME": "Chimera's Love (Damage)",
+    "ITEM_CHIMERADAMAGE_PICKUP": "Increases damage.",
+    "ITEM_CHIMERADAMAGE_DESCRIPTION": "Increases base damage by <style=cIsDamage>10%</style> <style=cStack>(+10% per stack)</style>.",
+
+    "ITEM_CHIMERAARMOR_NAME": "Chimera's Love (Armor)",
+    "ITEM_CHIMERAARMOR_PICKUP": "Increases armor.",
+    "ITEM_CHIMERAARMOR_DESCRIPTION": "Increases armor by <style=cIsUtility>10</style> <style=cStack>(+10 per stack)</style>.",
+
+    "ITEM_CHIMERACRIT_NAME": "Chimera's Love (Critical Strikes)",
+    "ITEM_CHIMERACRIT_PICKUP": "Increases critical strike chance and damage.",
+    "ITEM_CHIMERACRIT_DESCRIPTION": "Increases critical strike chance and damage by <style=cIsDamage>7%</style> <style=cStack>(+7% per stack)</style> each.",
+
+    "ITEM_CHIMERASPEED_NAME": "Chimera's Love (Speed)",
+    "ITEM_CHIMERASPEED_PICKUP": "Increases attack and movement speed.",
+    "ITEM_CHIMERASPEED_DESCRIPTION": "Increases attack and movement speed by <style=cIsUtility>10%</style> <style=cStack>(+10% per stack)</style> each.",
+
+    "ITEM_CHIMERACOOLDOWN_NAME": "Chimera's Love (Cooldowns)",
+    "ITEM_CHIMERACOOLDOWN_PICKUP": "Reduces cooldowns.",
+    "ITEM_CHIMERACOOLDOWN_DESCRIPTION": "Reduces skill cooldowns by <style=cIsUtility>0.5 seconds</style> <style=cStack>(+0.5 per stack)</style>.",
+
+    "ITEM_CHIMERALUCK_NAME": "Chimera's Love (Luck)",
+    "ITEM_CHIMERALUCK_PICKUP": "Increases luck.",
+    "ITEM_CHIMERALUCK_DESCRIPTION": "Increases luck by <style=cIsHealing>1</style> <style=cStack>(+1 per stack)</style>.",
+
+    "ITEM_MONOCLE_NAME": "Vintage Monocle",
+    "ITEM_MONOCLE_PICKUP": "Deal more damage to elite enemies. <style=cDeath>Deal less damage to non-elite enemies.</style>",
+    "ITEM_MONOCLE_DESCRIPTION": "Deal <style=cIsDamage>+20%</style> <style=cStack>(+20% per stack)</style> bonus damage to <style=cWorldEvent>elite</style> enemies. Deal <style=cDeath>20% </style><style=cStack>(+20% per stack)</style><style=cDeath> less damage</style> to non-elite enemies.",
+    "ITEM_MONOCLE_LORE": "Let us begin.\n\nA lens; these ratios are quite delicate.\n\nSilver, to bend light.\n\nGlass, to create a threshold.\n\nEnergy, to give it a taste of its prey.\n\nAnd that is that. An eye that grants a sight beyond sight, in the palm of your hand.",
+
+    "ITEM_GRUDGEFOLLOWER_NAME": "Lingering Resentment",
+    "ITEM_GRUDGEFOLLOWER_PICKUP": "A meteor chases you around, damaging <style=cDeath>anything it touches</style>.",
+    "ITEM_GRUDGEFOLLOWER_DESCRIPTION": "A <style=cIsUtility>meteor</style> chases you around, dealing <style=cIsDamage>1000% <style=cStack>(+250% per stack)</style> damage per second</style> to <style=cDeath>ANY character</style> it touches. The farther away the meteor is from you, <style=cIsUtility>the faster it travels</style>.",
+    "ITEM_GRUDGEFOLLOWER_LORE": "<style=cMono>//-- AUTO TRANSCRIPTION FROM UES [Redacted] --//</style>\n\n\"And so, he cast off his hatred, sealing it into a rock...\"\n\n\"This story sucks.\"\n\n\"Shhh! Quiet!\"\n\n\"Nails skewered the rock, to seal the grudge within and prevent its escape. But the grudge was so strong that it leaked out from its sundered prison...\"\n\n\"...A-And then?\"\n\n\"It's said that the grudge took on a life of its own. It relentlessly chases down whoever is in its path, turning its prison into a weapon of destruction so it may exact revenge on its betrayer. And it's said that the grudge haunts lone campsites, much like this one...\"\n\n\"Yeah, right, this is totally bogus...\"\n\n\"I-I'm scared...\"\n\n\"S-So, Jean, where'd you even hear this story?\"\n\n\"Oh, it was in this old book my grandma used to read to me. And you're right, it's just an urban legend.\"\n\n\"That's good...\"\n\n\"But man, the moon is awfully bright tonight. You know, it's said the grudge appears on moonlit nights-\"\n\n\"Enough! Poor Gwen is already going to lose enough sleep as is, don't torment the poor girl further!\"",
+
+    "ITEM_NOHITBUFF_NAME": "The Perfect Run",
+    "ITEM_NOHITBUFF_PICKUP": "You are <style=cIsUtility>empowered</style>, boosting ALL stats. Taking damage removes this effect and <style=cDeath>reduces your stats instead</style>.",
+    "ITEM_NOHITBUFF_DESCRIPTION": "You are <style=cIsUtility>empowered</style>, boosting movement speed by <style=cIsUtility>30% <style=cStack>(+10% per stack)</style></style>, attack speed by <style=cIsDamage>20% <style=cStack>(+5% per stack)</style></style>, damage by <style=cIsDamage>+50% <style=cStack>(+10% per stack)</style></style>, and cooldown reduction by <style=cIsUtility>10% <style=cStack>(+2.5% per stack)</style></style>. <style=cDeath>Taking any damage</style> removes this effect for the remainder of the stage and all of the bonuses received when <style=cIsUtility>empowered</style> are <style=cDeath>reversed</style> to become penalties.",
+    "ITEM_NOHITBUFF_LORE": "WIP more like WAP am i right",
+
+    "EQUIPMENT_EGG_NAME": "Cosmic Egg",
+    "EQUIPMENT_EGG_PICKUP": "Reincarnate into a random survivor with a random loadout. <style=cDeath>Usable once per stage</style>.",
+    "EQUIPMENT_EGG_DESCRIPTION": "Reincarnate into a random survivor with a random loadout. <style=cDeath>Usable once per stage</style>.",
+    "EQUIPMENT_EGG_LORE": "",
+
+    "EQUIPMENT_EGGUSED_NAME": "Cosmic Egg (Consumed)",
+    "EQUIPMENT_EGGUSED_PICKUP": "Looks cool, but that's about it. Regenerates at the beginning of the next stage.",
+    "EQUIPMENT_EGGUSED_DESCRIPTION": "Looks cool, but that's about it. Regenerates at the beginning of the next stage.",
+
+    "ITEM_WAKEOFVULTURESVOID_NAME": "Leviathan Bones",
+    "ITEM_WAKEOFVULTURESVOID_PICKUP": "Elites have a chance to drop Aspect Shards, which provide a stacking damage bonus to elites of that type. <style=cIsVoid>Corrupts all Wake of Vultures</style>.",
+    "ITEM_WAKEOFVULTURESVOID_DESCRIPTION": "On kill, elite monsters have a <style=cIsUtility>20%</style> <style=cStack>(+20% per stack)</style> chance to drop an <style=cWorldEvent>Aspect Shard</style>, which provides a stacking <style=cIsDamage>+10%</style> <style=cStack>(+10% per stack of Aspect Shard)</style> <style=cIsDamage>damage bonus</style> to elites of that type. <style=cIsVoid>Corrupts all Wake of Vultures</style>.",
+    "ITEM_WAKEOFVULTURESVOID_LORE": "",
+
+    "ITEM_ASPECTSHARD_NAME": "Aspect Shard ({0})",
+    "ITEM_ASPECTSHARD_PICKUP": "Bonus damage to {0} elites.",
+    "ITEM_ASPECTSHARD_DESCRIPTION": "Deal <style=cIsDamage>+10%</style> <style=cStack>(+10% per stack)</style> <style=cIsDamage>extra damage</style> to {0} elites.",
+    "ITEM_ASPECTSHARD_LORE": "",
+
+    "ITEM_AEGISVOID_NAME": "First-Aid Cell",
+    "ITEM_AEGISVOID_PICKUP": "Healing over full stores excess health for later. <style=cIsVoid>Corrupts all Aegises</style>.",
+    "ITEM_AEGISVOID_DESCRIPTION": "Healing over full stores <style=cIsHealth>excess health</style> for later, healing you for <style=cIsHealing>10% <style=cStack>(+10% per stack)</style> of your max health per second</style> when below full health. Store up to <style=cIsUtility>100% of your max health <style=cStack>(+100% per stack)</style></style>. <style=cIsVoid>Corrupts all Aegises</style>.",
+    "ITEM_AEGISVOID_LORE": "",
+
+    "ITEM_STICKYBOMBVOID_NAME": "Phosphorescent Mote",
+    "ITEM_STICKYBOMBVOID_PICKUP": "Chance on hit to deploy a floating mine. <style=cIsVoid>Corrupts all Sticky Bombs</style>.",
+    "ITEM_STICKYBOMBVOID_DESCRIPTION": "<style=cIsDamage>20%</style> chance on hit to deploy a <style=cIsUtility>floating mine</style> that detonates for <style=cIsDamage>180% <style=cStack>(+80% per stack)</style> TOTAL damage</style> within <style=cIsUtility>10m</style>. <style=cIsVoid>Corrupts all Sticky Bombs</style>.",
+    "ITEM_STICKYBOMBVOID_LORE": "",
+
+    "ITEM_ENERGYDRINKVOID_NAME": "Higgs Solution",
+    "ITEM_ENERGYDRINKVOID_PICKUP": "Move faster while airborne. <style=cIsVoid>Corrupts all Energy Drinks</style>.",
+    "ITEM_ENERGYDRINKVOID_DESCRIPTION": "Increases movement speed by <style=cIsUtility>+15% <style=cStack>(+15% per stack)</style></style> while airborne. <style=cIsVoid>Corrupts all Energy Drinks</style>.",
+    "ITEM_ENERGYDRINKVOID_LORE": "",
+
+    "ITEM_BEETLEPLUSH_NAME": "Worker's Bond",
+    "ITEM_BEETLEPLUSH_PICKUP": "Increases health regeneration when allies are nearby.",
+    "ITEM_BEETLEPLUSH_DESCRIPTION": "For each ally within <style=cIsDamage>10m</style> <style=cStack>(+3m per stack)</style>, increase your health regeneration by <style=cIsHealing>+2.5 HP/s</style>.",
+    "ITEM_BEETLEPLUSH_LORE": "",
+
+    "ITEM_LEMURIANEGG_NAME": "Lemurian Egg",
+    "ITEM_LEMURIANEGG_PICKUP": "Recruit a Lemurian Hatchling that occasionally digs up a random bonus.",
+    "ITEM_LEMURIANEGG_DESCRIPTION": "Recruit a <style=cIsUtility>Lemurian Hatchling</style>. Every so often, the Hatchling will dig up a <style=cIsDamage>bonus</style>, which can be either <style=cIsDamage>$10 <style=cStack>(+5 per stack, scales over time)</style></style>, an item, or a temporary stat buff that lasts <style=cIsUtility>10 <style=cStack>(+5 per stack)</style> seconds</style>.",
+    "ITEM_LEMURIANEGG_LORE": "",
+
+    "HATCHLING_DIGUP_MONEY_NOTIFICATION_1": "Your Hatchling dug up some gold!",
+    "HATCHLING_DIGUP_MONEY_NOTIFICATION_2": "{0}'s Hatchling dug up some gold!",
+
+    "HATCHLING_DIGUP_ITEM_NOTIFICATION_1": "Your Hatchling dug up a {0}!",
+    "HATCHLING_DIGUP_ITEM_NOTIFICATION_2": "{0}'s Hatchling dug up a {1}!",
+
+    "HATCHLING_DIGUP_BUFF_DAMAGE_NOTIFICATION_1": "Your Hatchling dug up a damage bonus!",
+    "HATCHLING_DIGUP_BUFF_DAMAGE_NOTIFICATION_2": "{0}'s Hatchling dug up a damage bonus!",
+
+    "ITEM_WISPONKILL_NAME": "Abandoned Wisp",
+    "ITEM_WISPONKILL_PICKUP": "Fire a tracking wisp on hit. Hold up to <style=cIsUtility>3</style>.",
+    "ITEM_WISPONKILL_DESCRIPTION": "Fire a <style=cIsDamage>tracking wisp</style> on hit for <style=cIsDamage>150% TOTAL damage</style>, holding up to <style=cIsUtility>3 <style=cStack>(+1 per stack)</style></style>. Recover a wisp every <style=cIsUtility>3 seconds</style>.",
+    "ITEM_WISPONKILL_LORE": "<style=cMono>Audio transcription complete from portable recorder.\n\nPrinting...</style>\n\n\"What is that?\"\n\"It looks like one of those wisp things. But like, really small.\"\n\"Well, yeah... Look at that poor thing. It can't even get itself off the ground like the other ones.\"\n\"Don't tell me you're getting attached to it!?\"\n\"Dude, look, the thing can't even attack us. If it could, it would have already. Isn't that right, little guy? Come here...\"\n\"You have a death wish, man.\"\n\"Look, if it winds up being a problem, I'll take care of it myself. In you go, little guy...\"\n\"Whatever. Just know if you get court martialed for this, I'll be laughing at you.\"\n\"...\"\n\"...\"\n\"...\"\n\"...So what should we call it?\"\n\"We!?\"",
+
+    "ITEM_TENTACLE_NAME": "Frayed Tentacle",
+    "ITEM_TENTACLE_PICKUP": "Chance to tether yourself to an enemy.",
+    "ITEM_TENTACLE_DESCRIPTION": "<style=cIsUtility>10%</style> chance on hit to tether yourself to up to 1 <style=cStack>(+1 per stack)</style> enemy for <style=cIsUtility>3</style> <style=cStack>(+1 per stack)</style> seconds. Tethered enemies take <style=cIsDamage>100% TOTAL damage</style> per second.",
+    "ITEM_TENTACLE_LORE": "<style=cMono>Lab Dissection Analysis File</style>\n\nSubject: Frayed Tentacle\nTechnician: Eleanor Veirs\nTable Spec: Dissection 5B4 with Ele-Maintenance Kit\nNotes: \n\n> Subject brought in by salvage team\n> Appears to be severed tentacle of the Jellyfish species reported by Dr. Furthen\n> Tentacle is composed of many thin micro-tentacles, woven together to form a larger appendage\n> Ouch. High surface area and friction between tentacles generates a potent static shock\n> Ow. Tentacles secrete an adhesive mucus, presumably to keep the tentacles from splitting\n> Ouch. Tentacle is stuck to my hand",
+
+    "ITEM_IMPEYE_NAME": "Imp's Eye",
+    "ITEM_IMPEYE_PICKUP": "Bleeding enemies are slowed and take <style=cIsDamage>bonus damage</style> from all sources per stack of <style=cIsHealth>bleed</style>.",
+    "ITEM_IMPEYE_DESCRIPTION": "<style=cIsHealth>Bleeding</style> foes are slowed by <style=cIsUtility>50%</style> and take <style=cIsDamage>+1% <style=cStack>(+1% per stack)</style></style> bonus damage from <style=cIsDamage>all sources</style> per stack of Bleed.",
+    "ITEM_IMPEYE_LORE": "<style=cMono>Lab Dissection Analysis File</style>\n\nSubject: Imp's Eye\nTechnician: Quinton Brown\nTable Spec: Surgery Equipment with Biological Experimentation Suite\nNotes: \n\n> subject recovered from \"imp\" specimen\n\n> organ is clearly analogous to an eyeball\n\n> study of eye shows highly developed muscles around iris - suggests developed ability for ocular focus?\n\n> imps have been reported to be precise and deadly hunters - hypothesis is that imp eyes are equipped to spot and focus on minute weaknesses in prey\n\n> eye is focusing without stimulation\n\n> is it looking at me?",
+
+    "ITEM_GEODE_NAME": "Mourning Geode",
+    "ITEM_GEODE_PICKUP": "Gain a burst of armor and regeneration when any character dies.",
+    "ITEM_GEODE_DESCRIPTION": "Gain a burst of armor and regeneration when <style=cIsUtility>any character dies</style>, increasing <style=cIsUtility>armor</style> by <style=cIsUtility>+15</style> <style=cStack>(+15 per stack)</style> and <style=cIsHealing>regeneration</style> by <style=cIsHealing>+10 HP/s</style> <style=cStack>(+3.5 per stack)</style> for <style=cIsUtility>1 <style=cStack>(+0.25 per stack)</style> second(s)</style>.",
+    "ITEM_GEODE_LORE": "To those who trample Mother Earth's fields,\n\nTo those who tear down Her mighty mountains,\n\nTo those who pollute Her sparkling waters,\n\nAnd to those who send Her children to the grave,\n\nForget not the fury of those who mourn.",
+
+    "ITEM_BEETLEFALLBOOTS_NAME": "Chitin Hammer",
+    "ITEM_BEETLEFALLBOOTS_PICKUP": "Reduces fall damage. Falling at a great enough speed damages foes on impact.",
+    "ITEM_BEETLEFALLBOOTS_DESCRIPTION": "Reduces <style=cIsDamage>fall damage</style> by <style=cIsUtility>10%</style> <style=cStack>(+5% per stack)</style>. Cannot reduce fall damage below <style=cDeath>1</style>. When falling at a <style=cIsUtility>great enough speed</style>, damage nearby foes on landing for <style=cIsDamage>380%</style> <style=cStack>(+120% per stack)</style>.",
+    "ITEM_BEETLEFALLBOOTS_LORE": "",
+
+    "ITEM_TARBINE_NAME": "Frenzied Tarbine",
+    "ITEM_TARBINE_PICKUP": "Rapidly strike enemies to start up a barrage of tar.",
+    "ITEM_TARBINE_DESCRIPTION": "Landing <style=cIsUtility>3 attacks</style> within <style=cIsDamage>0.25 seconds</style> of each other starts up a <style=cIsDamage>tar barrage</style>, damaging enemies for <style=cIsDamage>80%</style> <style=cStack>(+20% per stack)</style> <style=cIsDamage>damage</style> per bullet.",
+    "ITEM_TARBINE_LORE": "WITH MY THOUSAND ARMS I SPREAD MY BODY ACROSS THE WORLD\n\nWITH MY THOUSAND EYES I GAZE UPON DUNES BAKING IN THE SUN\n\nWITH MY THOUSAND MOUTHS I WHISPER SWEET NOTHINGS INTO THEIR EARS\n\nWITH MY THOUSAND EARS I HEAR THEIR CRIES\n\nWITH MY THOUSAND HANDS I DRAG THEM DOWN INTO MY EMBRACE\n\nWITH MY THOUSAND HEARTS WE BEAT AS ONE\n\nWITH MY THOUSAND STOMACHS I HUNGER FOR MORE\n\nWITH MY THOUSAND MINDS I IGNORE THEIR SCREAMS\n\nWITH MY THOUSAND VESSELS I AM WELCOMED ONTO A NEW WORLD\n\nWITH MY THOUSANDTH MEAL I CONTINUE TO SPREAD",
+
+    "ITEM_BISONSHIELD_NAME": "Bighorn Buckler",
+    "ITEM_BISONSHIELD_PICKUP": "Damage enemies by sprinting into them. Recharges after 3 seconds.",
+    "ITEM_BISONSHIELD_DESCRIPTION": "Increase your <style=cIsDamage>sprinting speed</style> by <style=cIsUtility>20%</style>. <style=cIsDamage>Sprint into an enemy</style> for <style=cIsDamage>250%</style> <style=cStack>(+160% per stack)</style> <style=cIsDamage>damage</style>, dealing <style=cIsUtility>more damage the faster you are moving</style>. Recharges after <style=cDeath>3 seconds</style>.",
+    "ITEM_BISONSHIELD_LORE": "<style=cMono>// -- Auto-Transcription from UES [Redacted] -- //</style>\n\n\"Hey, did you hear? Apparently those bison from one of Saturn's moons were discovered here.\"\n\n\"Huh? But I thought they-\"\n\n\"Vanished, right? Crazy. Makes you wonder what else is hiding out on this crazy planet.\"\n\n\"Yeah... But wait, if they're here, then like... how?\"\n\n\"How what?\"\n\n\"How did they get here?\"\n\n\"Beats me. Maybe they found one of those teleporters?\"\n\n\"That makes no sense.\"\n\n\"Hey, I'm just spit-balling here. Could be anything. Maybe they flew here, haha...\"\n\n\"Haha, yeah. Guess we'll never know.\"",
+
+    "ITEM_IGNITEONHIT_NAME": "Living Furnace",
+    "ITEM_IGNITEONHIT_PICKUP": "Chance to ignite enemies on hit.",
+    "ITEM_IGNITEONHIT_DESCRIPTION": "<style=cIsUtility>10%</style> chance on hit to <style=cIsDamage>ignite</style> enemies, dealing <style=cIsDamage>250% TOTAL damage</style> over time for <style=cIsUtility>2 seconds</style> <style=cStack>(+1 per stack)</style>.",
+    "ITEM_IGNITEONHIT_LORE": "<style=cMono>Lab Dissection Analysis File</style>\n\nSubject: Living Furnace\nTechnician: Dema \"Dembones\" Brown\nTable Spec: Heatsink UB-2\nNotes: \n\n> Using UB-2 due to high temperatures generated by subject.\n\n> Subject is an organ recovered from alien species encountered on planet. Species dubbed \"Elder Lemurian\" by xenobiology team.\n\n> Lemurian species indicated to be reptilian, yet they showcase warm-blooded traits. Hypotheses indicate their fire-breath may be the answer.\n\n> This organ produces extraordinary amounts of heat - intakes fuel from a valve on its dorsal surface.\n\n> Ventral hose seems to be its output. Putting in 3mg of fuel.\n\n> Subject outputted a blast of flame measuring in at 176 degrees celsius.\n\n> \n\n> I think I singed my eyebrows off",
+
+    "ITEM_SMITEONHIT_NAME": "Mythic Spark",
+    "ITEM_SMITEONHIT_PICKUP": "Chance to smite enemies on hit.",
+    "ITEM_SMITEONHIT_DESCRIPTION": "<style=cIsDamage>10%</style> chance on hit to <style=cIsHealing>smite</style> enemies with lightning up to <style=cIsUtility>1 <style=cStack>(+1 per stack)</style></style> time(s), dealing <style=cIsDamage>450% damage</style>.",
+    "ITEM_SMITEONHIT_LORE": "",
+
+    "ITEM_SHIELDWHENSTATIONARY_NAME": "No Place Like Home",
+    "ITEM_SHIELDWHENSTATIONARY_PICKUP": "When standing still for 2 seconds, gain a shield that blocks attacks. Recharges one attack every 10 seconds.",
+    "ITEM_SHIELDWHENSTATIONARY_DESCRIPTION": "When standing still for 2 seconds, gain a shield that blocks up to <style=cIsUtility>3 <style=cStack>(+2 per stack)</style> attacks</style>. Recharges one attack every <style=cIsUtility>10 seconds</style>.",
+    "ITEM_SHIELDWHENSTATIONARY_LORE": "",
+
+    "ITEM_DRONECOUPON_NAME": "Alloy Remote",
+    "ITEM_DRONECOUPON_PICKUP": "Activate a mechanical interactable for free. Recharges at the beginning of the next stage.",
+    "ITEM_DRONECOUPON_DESCRIPTION": "Activate <style=cIsUtility>1 <style=cStack>(+1 per stack)</style> mechanical object</style> for free. Consumed on use, but recharges upon entering the next stage.",
+    "ITEM_DRONECOUPON_LORE": "",
+
+    "ITEM_DRONECOUPONUSED_NAME": "Alloy Remote (Consumed)",
+    "ITEM_DRONECOUPONUSED_PICKUP": "Does nothing, but regenerates at the beginning of the next stage.",
+    "ITEM_DRONECOUPONUSED_DESCRIPTION": "Does nothing, but regenerates at the beginning of the next stage.",
+    "ITEM_DRONECOUPONUSED_LORE": "",
+
+    "ITEM_MUSHROOMONKILL_NAME": "Mushrum Spore",
+    "ITEM_MUSHROOMONKILL_PICKUP": "Grow mushrooms on kill that damage and slow enemies.",
+    "ITEM_MUSHROOMONKILL_DESCRIPTION": "Grow up to <style=cIsUtility>3 <style=cStack>(+1 per stack)</style></style> mushrooms on kill. Grown mushrooms create a <style=cIsUtility>25m wide ward</style> that damages enemies for <style=cIsDamage>100% damage <style=cStack>(+40% per stack)</style></style> every second, <style=cIsHealing>weakens</style>, and <style=cIsUtility>slows</style> them.",
+    "ITEM_MUSHROOMONKILL_LORE": "",
+
+    "ITEM_PROJECTILEKILLER_NAME": "Brass Mechanism",
+    "ITEM_PROJECTILEKILLER_PICKUP": "Strong attacks create stunning shockwaves that destroy enemy projectiles.",
+    "ITEM_PROJECTILEKILLER_DESCRIPTION": "Attacks that deal <style=cIsDamage>400% base damage</style> or greater create a <style=cIsDamage>stunning shockwave</style> for <style=cIsDamage>50% TOTAL damage</style> that <style=cIsUtility>destroys enemy projectiles</style> for <style=cIsDamage>3 <style=cStack>(+1 per stack)</style> seconds</style>.",
+    "ITEM_PROJECTILEKILLER_LORE": "",
+
+    "ITEM_GRIEFFLOWER_NAME": "The Second Stage",
+    "ITEM_GRIEFFLOWER_PICKUP": "Enter a frenzy when an ally is killed.",
+    "ITEM_GRIEFFLOWER_DESCRIPTION": "When an ally is killed, enter a frenzy that <style=cIsDamage>boosts all stats</style> for <style=cIsUtility>3 seconds <style=cStack>(+3 per stack)</style></style>.\n\nBoosts damage by <style=cIsDamage>300%</style>, armor by <style=cIsUtility>200</style>, movement speed by <style=cIsUtility>+50%</style>, attack speed by <style=cIsDamage>+50%</style>, and health regeneration by <style=cIsHealing>+500%</style>.",
+    "ITEM_GRIEFFLOWER_LORE": "Denial, wrath, bargaining, depression, and acceptance.\n\nThe commonly associated five stages - though not everyone experiences them in order.\n\nThose who deny have yet to come to terms with their loss; they wish to escape.\n\nThose who bargain seek to lessen the blow; they wish to undo.\n\nThose who are depressed are processing their loss; they wish to mourn.\n\nThose who accept have found peace; they wish to move on.\n\nAnd those who are overcome with fury seek justice; they wish to destroy.",
+
+    "ITEM_ORBITINGCONSTRUCTS_NAME": "Beta Constructs",
+    "ITEM_ORBITINGCONSTRUCTS_PICKUP": "Gain an orbiting Beta Construct that autonomously attacks nearby enemies.",
+    "ITEM_ORBITINGCONSTRUCTS_DESCRIPTION": "Gain <style=cIsUtility>1 <style=cStack>(+1 per stack)</style></style> orbiting <style=cIsDamage>Beta Construct</style> that autonomously attacks nearby enemies for <style=cIsDamage>200% damage</style>. Rate of fire scales with your <style=cIsUtility>attack speed</style>.",
+    "ITEM_ORBITINGCONSTRUCTS_LORE": "I fail to understand the point of these outbursts. First that guardian, now these...\n\nBrother, you cannot keep doing this. Mighty as we may be, we work with finite resources. By crafting these inferior constructs, you waste not only your own time and mine, but the resources with which we realize our designs.\n\n...\n\n...It is as I told you already, brother. An excess of soul yields volatility, inferior output, and needless sentimentality. A construct who feels cannot compete with a construct who knows only its intended purpose.\n\nI will return shortly. I will be disposing of these constructs. It seems that, despite my patience, I will have to observe you as you work to prevent more incidents like these.",
+
+    "ITEM_PROJECTILEDOUBLER_NAME": "Royal Jelly",
+    "ITEM_PROJECTILEDOUBLER_PICKUP": "Chance to split a fired projectile into two.",
+    "ITEM_PROJECTILEDOUBLER_DESCRIPTION": "<style=cIsDamage>5%</style> <style=cStack>(+5% per stack)</style> chance to <style=cIsDamage>split a fired projectile into two</style> for <style=cIsUtility>2*75% damage</style>.",
+    "ITEM_PROJECTILEDOUBLER_LORE": "<style=cMono>Lab Dissection Analysis File</style>\n\nSubject: Royal Jelly\nTechnician: Dr. Jordan Brown\nTable Spec: Macro-cellular Examination with Microscopic Inspection Module\nNotes: \n\n> Subject is a conglomeration of cytoplasm, cell-membrane, and macro-organelles recovered from the alien life-form classified as \"Gup.\"\\n\\n> Intense aroma noted. Smells of terrestrial strawberries... Could high qualities of nutrients cause this smell?\\n\\n> Examination of strange organelles commenced. Organelles contain molecules that could only be the Gup's analogue to DNA - but the Gup was reported as a single-celled organism.\\n\\n> Could redundancy in DNA storage help the Gup's near-instant use of mitosis to escape danger?\\n\\n> To prove this theory, I stimulate the sample to initiate mitosis.\\n\\n> Oh\\n\\n> There's two samples now. They're identical, but slightly smaller than the original.\\n\\n> I stimulate the sample again.\\n\\n> Uh oh\\n\\n> Mitosis appears to have gone out of control. Gup samples are filling the roomaouphgpouhsglkahsbg",
+
+    "ITEM_MELEEATTACKSPEED_NAME": "Rabid Incisor",
+    "ITEM_MELEEATTACKSPEED_PICKUP": "Increases attack speed when close to an enemy.",
+    "ITEM_MELEEATTACKSPEED_DESCRIPTION": "Increases attack speed by <style=cIsDamage>20% <style=cStack>(+20% per stack)</style></style> when within <style=cIsUtility>10m</style> of an enemy.",
+    "ITEM_MELEEATTACKSPEED_LORE": "",
+
+    "ITEM_TARBALLSONHIT_NAME": "Pin-Pulled Urn",
+    "ITEM_TARBALLSONHIT_PICKUP": "Chance to fire tar balls on hit.",
+    "ITEM_TARBALLSONHIT_DESCRIPTION": "10% chance on hit to fire <style=cIsDamage>3 <style=cStack>(+1 per stack)</style></style> balls of tar that explode for <style=cIsDamage>230% TOTAL damage</style>, inflicting <style=cIsUtility>Tar</style>.",
+    "ITEM_TARBALLSONHIT_LORE": "",
+
+    "ITEM_LUNAREXPLODEONDEATH_NAME": "Volatility Personified",
+    "ITEM_LUNAREXPLODEONDEATH_PICKUP": "Explode on death. Your minions inherit this item.",
+    "ITEM_LUNAREXPLODEONDEATH_DESCRIPTION": "Explode for <style=cIsDamage>3000% <style=cStack>(+3000% per stack)</style> damage</style> upon death, <style=cIsUtility>crippling enemies</style>. Your minions inherit this item.",
+    "ITEM_LUNAREXPLODEONDEATH_LORE": "All material has value, brother.\n\n",
+
+    "ITEM_FIREEYE_NAME": "Smoldering Witness",
+    "ITEM_FIREEYE_PICKUP": "Look at an enemy projectile to shoot it down and ignite the attacker.",
+    "ITEM_FIREEYE_DESCRIPTION": "Once every second, <style=cIsUtility>shoot down</style> 1 <style=cStack>(+1 per stack)</style> enemy projectile within your range of vision and <style=cIsDamage>ignite</style> the attacker for <style=cIsDamage>125% <style=cStack>(+80% per stack)</style> TOTAL projectile damage</style>. Activation rate scales with attack speed.",
+    "ITEM_FIREEYE_LORE": "<style=cMono>Lab Dissection Analysis File</style>\n\nSubject: Smoldering Witness\nTechnician: Dr. Jordan Brown\nTable Spec: Heatsink UB-2\nNotes: \n\n> Subject is some form of symbiotic life-form recovered from the body of a slain Scorch Wurm.\n\n> Scorch Wurms - and their larger brethren - are blind, it appears.\n\n> This little organism provides the worms with sight in exchange for safety - but the fact it can withstand such intense heat is astonishing!\n\n> Even now, its eye darts around the room.\n\n> Is it getting hot in here?",
+
+    "ITEM_GOLDARMORBOOST_NAME": "Halcyon Shard",
+    "ITEM_GOLDARMORBOOST_PICKUP": "Gain armor based off your current gold.",
+    "ITEM_GOLDARMORBOOST_DESCRIPTION": "Gain <style=cIsUtility>10 armor</style> for every <style=cIsDamage>$25 <style=cStack>(scales over time)</style></style> gold you hold, up to <style=cIsUtility>60 <style=cStack>(+20 per stack)</style></style>.",
+    "ITEM_GOLDARMORBOOST_LORE": "Millenia pass as Aurelionite sits in her cage, unable to interact with the world beyond.\n\nShe mournfully sings her songs to all who will listen, and surely word will spread.\n\nFaithful of the Golden One flock to her music, acting as her hands and her eyes.\n\nAurelionite is pleased. She imparts a gift.\n\nTones carry her commands as her faithful shape golden constructs in her name.\n\nA pointed crown, for elegance. A ring-shaped core, for stability. A great blade, for protection.\n\nHer radiant melodies fill the creation from the Gilded Coast, animating the one who would come to be called Halcyonite.\n\nAnd so it was good.",
+
+    "ITEM_???_NAME": "",
+    "ITEM_???_PICKUP": "",
+    "ITEM_???_DESCRIPTION": "",
+    "ITEM_???_LORE": "",
+
+    "ITEM_VOIDSHACKLES_NAME": "Void Shackles",
+    "ITEM_VOIDSHACKLES_PICKUP": "Strong attacks <style=cIsVoid>shackle</style> enemies, dragging them to the ground and immobilizing them. Recharges after 60 seconds.",
+    "ITEM_VOIDSHACKLES_DESCRIPTION": "Hits that deal more than <style=cIsDamage>400% damage</style> also deal an <style=cIsDamage>additional 25%</style> of the target's current health and <style=cIsVoid>shackle</style> the target for <style=cIsUtility>4 seconds <style=cStack>(+3 per stack)</style></style>, dragging them to the ground. <style=cIsVoid>Shackled</style> targets are immobilized and <style=cIsHealing>cannot heal</style>. Recharges after <style=cIsDamage>60 seconds</style>.",
+    "ITEM_VOIDSHACKLES_LORE": "",
+
+    "ITEM_INFECTSUMMONS_NAME": "Infesting Barnacle",
+    "ITEM_INFECTSUMMONS_PICKUP": "All of your minions are replaced by Void Barnacles.",
+    "ITEM_INFECTSUMMONS_DESCRIPTION": "All of your minions are replaced by <style=cIsVoid>Void Barnacles</style> that have <style=cIsHealth>+500% <style=cStack>(+200% per stack)</style></style> health and <style=cIsDamage>+200%</style> damage <style=cStack>(+200% per stack)</style>. Gain a <style=cIsVoid>Void Barnacle</style>.",
+    "ITEM_INFECTSUMMONS_LORE": "",
+
+    "ITEM_SCAVSACKBONUS_NAME": "Scavenger's Bindle",
+    "ITEM_SCAVSACKBONUS_PICKUP": "Backpacks dropped by Scavengers drop an additional item and have a chance to drop rarer items.",
+    "ITEM_SCAVSACKBONUS_DESCRIPTION": "When opening a backpack dropped by a <style=cShrine>Scavenger</style>, the backpack drops <style=cIsUtility>2 <style=cStack>(+1 per stack)</style></style> additional items, and has a <style=cIsDamage>20% <style=cStack>(+5% per stack)</style></style> chance to drop rarer items.",
+    "ITEM_SCAVSACKBONUS_LORE": "",
+
+    "ITEM_NULLSEED_NAME": "Null Seed",
+    "ITEM_NULLSEED_PICKUP": "Summon a <style=cIsVoid>Void Nova</style> on kill that obliterates <style=cDeath>all nearby characters</style>. Recharges after 30 seconds.",
+    "ITEM_NULLSEED_DESCRIPTION": "On kill, summon a <style=cIsVoid>Void Nova</style> that <style=cDeath>obliterates all nearby characters</style> within <style=cIsUtility>10m</style>. Recharges after <style=cIsUtility>30 seconds</style> <style=cStack>(-15% per stack)</style>.",
+    "ITEM_NULLSEED_LORE": "\"The crab had succumbed to our combined assault. I remember feeling its ichor spilling out as I planted my axe in its head. The way its carapace crumbled, the shock it sent through my arms... I can recall it all vividly. I even remember how time seemed to slow as the crab died - maybe because it did. Space pulled inward, pulling, pulling until something snapped. I... remember flashes of what happened next. Mel screamed. I think Jack tried to grab me. But they didn't make it. The crab's body and I were dragged forcefully somewhere else. We tumbled through an endless ocean - at least, I think it was an ocean. I couldn't breathe, the air itself tore at my being and burned like I had swallowed a sun. My atoms, ripped apart and neatly catalogued. My body both burned and felt nothing simultaneously. I wanted to scream, but I couldn't - I had no throat with which to scream. The last thing I saw was that damn eye. An enormous, mechanical iris, tracing the outline of each of my molecules with mechanical efficiency. And then, I died. Or rather, I just... stopped existing. And I was neatly placed along all of their other conquests. Just another entry in their twisted archives.\"",
+
+    "ITEM_GODMODE_NAME": "First Design",
+    "ITEM_GODMODE_PICKUP": "Wield the power of Mithrix.",
+    "ITEM_GODMODE_DESCRIPTION": "All of your attacks <style=cLunarObjective>cripple</style> foes for <style=cIsUtility>2 seconds <style=cStack>(+2 per stack)</style></style>. On hit, fire shockwaves for <style=cIsDamage>3*300% <style=cStack>(+300% per stack)</style> TOTAL damage</style> that recharge every 5 seconds <style=cStack>(scales with attack speed)</style>. Every 15 seconds <style=cStack>(-50% per stack)</style>, summon a <style=cLunarObjective>Lunar Chimera</style> to aid you, up to <style=cIsUtility>3 <style=cStack>(+3 per stack)</style></style>. Gain a <style=cIsUtility>regenerating shield</style> for 25% of your max health. Increase <style=cIsUtility>movement speed</style> by 25%.",
+    "ITEM_GODMODE_LORE": "<style=cLunarObjective>...I suppose you must be here to laugh at me, then.</style>\n\n<style=cIsHealth>What makes you think that?</style>\n\n<style=cLunarObjective>Don't you DARE play coy with me, brother. To be felled by mere vermin, it could not be a more fitting end! Such creatures caused my misery to begin with, so it is only right they put an end to it.</style>\n\n<style=cIsHealth>...I see.</style>\n\n<style=cLunarObjective>...What is this place?</style>\n\n<style=cIsHealth>The boundary between this world and the next, from what I gather. I've been wandering this plane for... a long time, now.</style>\n\n<style=cLunarObjective>So this is it, then. We failed to leave our mark on the cosmos, and were felled by mere pests. And now, in the greatest mockery fate could devise, I pass on in the company of my betrayer.</style>\n\n<style=cIsHealth>...We both made a lot of mistakes, brother.</style>\n\n<style=cLunarObjective>...I just wanted you to be happy. I wanted to create grand works with you. And you condemned me to isolation and misery. How dare you call me your brother now, of all times?</style>\n\n<style=cIsHealth>I never stopped thinking of you, you know.</style>\n\n<style=cLunarObjective>Hah... Hahaha... Even now, you find a way of warming my cold heart. I despise you, you know.</style>\n\n<style=cIsHealth>I despise you, too.</style>\n\n<style=cLunarObjective>...</style>\n\n<style=cIsHealth>...Our time approaches, brother.</style>\n\n<style=cLunarObjective>So it is. Do... Do you think we will be together again in the next world?</style>\n\n<style=cIsHealth>I hope so. Perhaps in the next world, I will be less attached to life.</style>\n\n<style=cLunarObjective>One can only hope. And... perhaps... I will be more attentive of the feelings of those close to me.</style>\n\n<style=cIsHealth>Haha! I doubt it, brother. But perhaps, indeed...</style>\n\n<style=cLunarObjective>Perhaps then, brother, we will get things right next time.</style>\n\n<style=cIsHealth>Shall we? After you.</style>\n\n<style=cLunarObjective>Absolutely not. This time, YOU go first.</style>\n\n<style=cIsHealth>Of course, I merely jest. See you on the other side, brother.</style>\n\n<style=cLunarObjective>I look forward to it, brother.</style>",
+
+    "BROTHER_GODMODE_REACTION_1": "What is this...? You dare?",
+    "BROTHER_GODMODE_REACTION_2": "You use my own power? Against ME?",
+    "BROTHER_GODMODE_REACTION_3": "How is this in your possession, vermin? Answer me!",
+
+    "BROTHERHURT_STEALGODMODE_REACTION_1": "RIGHTFULLY RECLAIMED.",
+    "BROTHERHURT_STEALGODMODE_REACTION_2": "I TAKE BACK WHAT IS MINE.",
+    "BROTHERHURT_STEALGODMODE_REACTION_3": "YOU WILL SUFFER FOR THIS THEFT, VERMIN.",
+
+    "FALSESON_GODMODE_REACTION_1": "You...!? No, it couldn't be...",
+    "FALSESON_GODMODE_REACTION_2": "You dare come before me bearing HIS visage?",
+    "FALSESON_GODMODE_REACTION_3": "I know not how you obtained this power, cretin, but it shall not save you.",
+
+    "FALSESONFINAL_GODMODE_REACTION_1": "I will NOT fall to his influence again!",
+    "FALSESONFINAL_GODMODE_REACTION_2": "Tell your master that he is next.",
+    "FALSESONFINAL_GODMODE_REACTION_3": "HIS POWER CANNOT SAVE YOU.",
+
+    "ITEM_VOIDEYE_NAME": "Juvenile Megalopa",
+    "ITEM_VOIDEYE_PICKUP": "Wield the power of the 「Voidling」.",
+    "ITEM_VOIDEYE_DESCRIPTION": "You are immune to <style=cIsVoid>void-based obliteration</style>. Gain a ward of <style=cIsVoid>Void Fog</style> that chokes enemies within <style=cIsUtility>10m <style=cStack>(+10 per stack)</style></style>. Your attacks create <style=cIsDamage>singularities</style> once every five seconds <style=cStack>(scales with attack speed)</style>, which can be <style=cIsUtility>detonated</style> by activating your <style=cIsUtility>special skill</style> for <style=cIsDamage>4000% damage</style>. Items that have <style=cIsVoid>corruptible variants</style> have a <style=cIsDamage>20% <style=cStack>(+20% per stack)</style></style> chance to become <style=cIsVoid>corrupted</style> on pickup.",
+    "ITEM_VOIDEYE_LORE": "The runt of the litter.\n<style=cMono>「IS??OL?AT?E」「OBS?ER??VE」「DR??OW?N」「OR?DE?R」</style>\nThe little one hated the chaotic, noisy world above.\n<style=cMono>「HA??TR?ED」「DI??SD??A?IN」「D??IS??COMFO?RT」「D?E?TAIN」</style>\nEverything has a place.\n<style=cMono>「STUDY」「DISSECT」「ORGANIZE」「OR?DE?R」「PERFECTION」</style>\nThere was not a planet, being, or god that could resist the little one's will.\n<style=cMono>「DOMINATE」「DETAIN」「DR??OW?N」「CHOKE」「WITHER」</style>\n...Until, of course, there was.\n<style=cMono>「C?NFUS??N」「DI??SD??A?IN」「D??IS??COMFO?RT」「D?E?TAIN」「MU?TIL?AT?E」「EVI?S?CERATE??」「IMPL??OD?E」「KI?LL?」「M??AL?CE」「D?E?TA??」HA??T??ED」「DI??SD??A?IN」「D??????COMFO?RT」「D?E?T?IN」「MU?TIL?AT??」</style>\nA chaotic blemish on the little one's perfect world.\n<style=cMono>「EVI?S?CE??E??」「I??L??OD?E」「KI????」「M??AL???」「?????」「DI??????N」「???????????」「H?????????」「?????????」「R?????????」「????I???????」「?????????」「M????L???E」</style>\nAnd the little one hated chaos.\n<style=cMono>「 P R O V I D E N C E 」</style>",
+
+    "BROTHER_VOIDEYE_REACTION_1": "Return to the abyss.",
+    "BROTHER_VOIDEYE_REACTION_2": "Have you any inkling of what you've invited, vermin!?",
+    "BROTHER_VOIDEYE_REACTION_3": "An agent of the abyss. You have no dominion here!",
+
+    "FALSESON_VOIDEYE_REACTION_1": "I've dealt with your kind before.",
+    "FALSESON_VOIDEYE_REACTION_2": "Crawl back to the abyss you came from, cretin.",
+    "FALSESON_VOIDEYE_REACTION_3": "Tell your masters they are next.",
+
+    "ITEM_THUNDERAURA_NAME": "Clouded Heart",
+    "ITEM_THUNDERAURA_PICKUP": "Wield the power of the False Son.",
+    "ITEM_THUNDERAURA_DESCRIPTION": "Once every two seconds <style=cStack>(scales with attack speed)</style>, strike <style=cIsUtility>1 <style=cStack>(+1 per stack)</style></style> nearby enemy with lightning for <style=cIsDamage>400% <style=cStack>(+400% per stack)</style></style>, inflicting <style=cLunarObjective>lunar ruin</style>. Increases <style=cIsHealth>max health</style> by <style=cIsUtility>+100% <style=cStack>(+100% per stack)</style></style>.",
+    "ITEM_THUNDERAURA_LORE": "The clouds have parted. For too long, the storm within me raged.\n\nRaged at the life I could have led, the worship and reverance that was always just beyond my fingers. \n\nRaged at the legacy I inherited, the hatred placed upon me for a sin I did not commit. \n\nBut now, the storm has passed. \n\nA new path, revealed by the gleam of her gilded perfection, calls to me. Whatever those creatures did to me, I owe them a debt of gratitude.\n\nThe path traces ever upward to the moon, piercing his malignant heart and freeing this world of the influence of petty gods forever more. The path traces ever upward into the dark, to a future I cannot see. For once, a new feeling blossoms within me... Excitement?\n\nI shall not walk this path alone. First, her freedom is long overdue. Then, and only then, shall we chase the call in the dark together.",
+
+    "BROTHER_THUNDERAURA_REACTION_1": "I know this power. You dare bring it before me?",
+    "BROTHER_THUNDERAURA_REACTION_2": "That guardian's influence must be culled.",
+    "BROTHER_THUNDERAURA_REACTION_3": "You give worship to a false idol, vermin.",
+
+    "FALSESON_THUNDERAURA_REACTION_1": "Is that MY power!?",
+    "FALSESON_THUNDERAURA_REACTION_2": "I can feel it... Her power flows through you, cretin.",
+    "FALSESON_THUNDERAURA_REACTION_3": "You will return your stolen power, cretin.",
+
+    "ITEM_LUNARROSARY_NAME": "Anathemic Rosary",
+    "ITEM_LUNARROSARY_PICKUP": "Wield the power of a Twisted Scavenger.",
+    "ITEM_LUNARROSARY_DESCRIPTION": "Once every <style=cIsUtility>5 seconds <style=cStack>(-50% per stack)</style></style>, gain a stack of <style=cLunarObjective>Lunar Corruption</style>, up to a <style=cIsDamage>maximum of 4</style>. Your maximum corruption increases by <style=cIsUtility>1 for each Lunar item you have</style>. Reaching maximum corruption has you undergo <style=cLunarObjective>Faithful Awakening</style>, converting all stacks of <style=cLunarObjective>Lunar Corruption</style> into a powerful buff. Faithful Awakening degrades at a rate of one stack every <style=cIsUtility>1 <style=cStack>(+1 per stack)</style> second</style>.",
+    "ITEM_LUNARROSARY_LORE": "The tenets of your oath:\n\nYou pledge your undying loyalty to me. Never shall this pledge waver; not in this world, nor the next. I will see into your very heart; you can hide nothing from me.\n\nYou pledge yourself to the destruction of that fool's circus, and to return me to my rightful home so I may liberate it of vermin such as yourself.\n\nYou pledge yourself to be an extension of my will. You will be my hands where I cannot reach, my eyes where I cannot see. You are nothing, and will always be nothing: only through my hands will you be transformed into a vessel that will fulfill my design.\n\nIf you possess any qualms with your oath, any hesitation to fulfill my needs whatsoever: drop these beads and return to your precious \"Bulwark.\" I will not abide treachery in any sense.\n\nIf you agree to these terms, hold these beads close to your heart. Allow me to enter and grant you the power you need to fulfill your mission.\n\nGood. You are mine now, vermin.\n\nThe gate; seek out its location and change its alignment. My return home is long overdue.",
+
+    "LUNARROSARY_CORRUPTION_NAME": "Awakened {0}",
+
+    "BROTHER_LUNARROSARY_REACTION_1": "Traitorous vermin.",
+    "BROTHER_LUNARROSARY_REACTION_2": "This mistake shall be your last.",
+    "BROTHER_LUNARROSARY_REACTION_3": "Die in disgrace.",
+
+    "FALSESON_LUNARROSARY_REACTION_1": "Those beads... You dare bring those before me!?",
+    "FALSESON_LUNARROSARY_REACTION_2": "I will break your faith, and then your body.",
+    "FALSESON_LUNARROSARY_REACTION_3": "Are you watching? Watch as I kill your faithful.",
+
+    "SCAVLUNAR_LUNARROSARY_REACTION_1": "...!",
+
+    "EQUIPMENT_???_NAME": "",
+    "EQUIPMENT_???_PICKUP": "",
+    "EQUIPMENT_???_DESCRIPTION": "",
+    "EQUIPMENT_???_LORE": "",
+
+
+    "EQUIPMENT_STUNNEARBYFOES_NAME": "Bison Horn",
+    "EQUIPMENT_STUNNEARBYFOES_PICKUP": "Stuns nearby enemies.",
+    "EQUIPMENT_STUNNEARBYFOES_DESCRIPTION": "Stuns all enemies within <style=cIsUtility>15m</style> for <style=cIsDamage>3 seconds</style>.",
+    "EQUIPMENT_STUNNEARBYFOES_LORE": "",
+
+    "EQUIPMENT_CHARGINGLASER_NAME": "Positron Lance",
+    "EQUIPMENT_CHARGINGLASER_PICKUP": "Passively charges over time. Use to fire a piercing laser, dealing <style=cIsDamage>more damage the higher the charge</style>.",
+    "EQUIPMENT_CHARGINGLASER_DESCRIPTION": "Passively gains <style=cIsUtility>20% charge</style> per second. On use, fire a <style=cIsDamage>piercing laser</style> that damages foes for <style=cIsDamage>550% damage per second</style>, consuming all charge. <style=cIsHealing>Fuel Cells</style> increase the rate at which the Positron Lance charges.",
+    "EQUIPMENT_CHARGINGLASER_LORE": "Order: Hadron Accelerator and Particle Production Instrument\nTracking Number: 041***********\nEstimated Delivery: 7/09/2056\nShipping Method: Military\nShipping Address: Cargo Bay 10-C, Terminal 504-B, UES Port Trailing Comet\nShipping Details: \n\nAs requested, here's your ordnance. Refer to the included documentation for information on its operation.\n\nI pulled a lot of strings to get this puppy to you. The HAPPI unit isn't usually used as a weapon, but I know you and your boys can get a lot of use out of it. Here's a pro-tip, between you and me...\n\nEven though it says not to overcharge it, the HAPPI unit can handle charges well beyond its intended parameters. I once saw someone produce a gram of anti-matter by stress testing this puppy. A GRAM. Just don't stand on the business end of it, unless you want someone to join what remains of the Contact Light's crew.",
+
+    "CHARGINGLASER_DISPLAY_FORMAT": "{0}%",
+
+    "EQUIPMENT_OBELISK_NAME": "Enigmatic Obelisk",
+    "EQUIPMENT_OBELISK_PICKUP": "Passively charges over time. Activate to fire a piercing laser, dealing <style=cIsDamage>more damage the higher the charge</style>.",
+    "EQUIPMENT_OBELISK_DESCRIPTION": "Passively gains <style=cIsUtility>15% charge</style> per second. On use, fire a <style=cIsDamage>piercing laser</style> that damages foes for <style=cIsDamage>100% accumulated charge</style>.",
+    "EQUIPMENT_OBELISK_LORE": "Come, brother, look at this! This obelisk is the first tool that we shall use to tame the wilderness of our home.\n\nThis is just a demonstration, as I could not gather the full materials to create the full design... But! It should be more than enough for now.\n\nNow, observe. Four prongs, and four focal points. The tip acts as a focus, directing the gathered energy towards its desired target. Allow it to gather energy... And, behold!\n\n...What is wrong, brother? That is not the face I wished to see.\n\nWhat...? I would never turn the obelisk on you! Worry not, this is for clearing out debris and vermin, nothing more. There are no such dangers here, especially now that we have a means to defend ourselves.\n\nNow then, I must begin work on your obelisk. Should you lend a hand, the process will go by much faster - I also know you enjoy adding a bit of flair to your creations. I may not understand the point of such things, but if it makes you smile I will concede.",
+
+    "EQUIPMENT_FIREBURSTONFREEZE_NAME": "Thermostat",
+    "EQUIPMENT_FIREBURSTONFREEZE_PICKUP": "Passive effect. Upon being frozen, immediately thaw out and retaliate with a burst of flame.",
+    "EQUIPMENT_FIREBURSTONFREEZE_DESCRIPTION": "Passive effect. Upon being frozen, <style=cIsHealing>immediately thaw out</style> and retaliate with a <style=cIsDamage>15m wide burst of flame</style> for <style=cIsDamage>230%</style>, igniting enemies for <style=cIsUtility>5 seconds</style>.",
+    "EQUIPMENT_FIREBURSTONFREEZE_LORE": "",
+
+    "EQUIPMENT_SLOWTIME_NAME": "Golden Pocket Watch",
+    "EQUIPMENT_SLOWTIME_PICKUP": "Create a bubble of slowed down time, slowing enemies.",
+    "EQUIPMENT_SLOWTIME_DESCRIPTION": "Create a <style=cIsUtility>20m wide</style> bubble of distorted time, reducing enemies' <style=cIsUtility>movement speed</style>, <style=cIsDamage>attack speed</style>, and <style=cIsHealing>projectile speed</style> by <style=cIsUtility>80%</style>. Lasts <style=cIsUtility>15 seconds</style>.",
+    "EQUIPMENT_SLOWTIME_LORE": "",
+
+    "EQUIPMENT_LEVELUP_NAME": "Smart Assistant",
+    "EQUIPMENT_LEVELUP_PICKUP": "Level up on use.",
+    "EQUIPMENT_LEVELUP_DESCRIPTION": "Increases your <style=cIsHealing>level</style> by <style=cIsUtility>1</style>.",
+    "EQUIPMENT_LEVELUP_LORE": "",
+
+    "EQUIPMENT_DEATHIMMUNITY_NAME": "Deus Ex Machina",
+    "EQUIPMENT_DEATHIMMUNITY_PICKUP": "Temporarily become immune to death. Slaying monsters extends the duration.",
+    "EQUIPMENT_DEATHIMMUNITY_DESCRIPTION": "Temporarily become <style=cIsHealing>immune to death</style> for <style=cIsUtility>3 seconds</style>. <style=cIsDamage>Slaying an enemy</style> extends the duration by <style=cIsUtility>2 seconds</style>.",
+    "EQUIPMENT_DEATHIMMUNITY_LORE": "<style=cMono>//--AUTO-TRANSCRIPTION FROM UES [Redacted] --//</style>\n\nWe were surrounded. Jake, Leah, and Malik were dead. Everyone else was wounded, or worse, but we kept fighting. Honestly, I fully expected to die there. I saw my life flash before my eyes... I saw my mom, spoon feeding me some baby food when I was a few months old. I saw my first girlfriend smiling at me. I saw myself holding my pops' hand as he lay in that hospital bed. I... I can't explain what happened. I'm not too religious, see... Especially after what I saw on this planet. No caring god could create a place like this. But what happened next... How we got out... It had to have been divine intervention.",
+
+    "EQUIPMENT_AFFIXNAVY_NAME": "Vanguard",
+    "EQUIPMENT_AFFIXNAVY_PICKUP": "Become an Aspect of Steel.",
+    "EQUIPMENT_AFFIXNAVY_DESCRIPTION": "Become an Aspect of Steel. When taking damage, gain a stacking <style=cIsUtility>20 bonus armor</style> for 4 seconds. You cannot be stunned, staggered, or frozen.",
+
+    "EQUIPMENT_AFFIXLAVENDER_NAME": "Font of Soul",
+    "EQUIPMENT_AFFIXLAVENDER_PICKUP": "Become an Aspect of Blessing.",
+    "EQUIPMENT_AFFIXLAVENDER_DESCRIPTION": "Become an Aspect of Blessing. Grant a random Elite power to nearby non-Elite allies.",
+
+    "EQUIPMENT_AFFIXTAR_NAME": "Crucible of Decay",
+    "EQUIPMENT_AFFIXTOXIC_PICKUP": "Become an Aspect of Poison.",
+
+    "EQUIPMENT_ELITESHADOW_NAME": "What Waits In The Shadows",
+    "EQUIPMENT_ELITESHADOW_PICKUP": "Become an Aspect of Darkness.",
+    "EQUIPMENT_ELITESHADOW_DESCRIPTION": "Become an Aspect of Darkness. Your attacks <style=cDeath>blind</style> enemies for <style=cIsUtility>6 seconds</style>. When out of combat, <style=cIsUtility>turn invisible</style>.",
+
+    "EQUIPMENT_ELITETAR_NAME": "Aphelian Sin",
+    "EQUIPMENT_ELITETAR_PICKUP": "Become an Aspect of Tar.",
+    "EQUIPMENT_ELITETAR_DESCRIPTION": "Become an Aspect of Tar. Your attacks inflict Tar, and heal for <style=cIsHealing>100% total damage on hit</style>.",
+
+
+    "EQUIPMENT_ELITEWIND_NAME": "Gale Forces",
+    "EQUIPMENT_ELITEWIND_PICKUP": "Become an Aspect of Breeze.",
+    "EQUIPMENT_ELITEWIND_DESCRIPTION": "Become an Aspect of Breeze. Gain a barrier of wind that deflects one projectile, recharging after 5 seconds. You jump higher and move faster, and ignore fall damage.",
+
+    "EQUIPMENT_AFFIXSUPERBOSS_NAME": "Blessed Blood",
+    "EQUIPMENT_AFFIXSUPERBOSS_PICKUP": "Become an Aspect of Power.",
+
+    "EQUIPMENT_AFFIXCHAMPION_NAME": "Blessing of Providence",
+    "EQUIPMENT_AFFIXCHAMPION_PICKUP": "Become an Aspect of Legend.",
+
+    "EQUIPMENT_ELITEUNSTABLE_NAME": "Unfinished Design",
+    "EQUIPMENT_ELITEUNSTABLE_PICKUP": "Become an Aspect of Design.",
+    "EQUIPMENT_ELITEUNSTABLE_DESCRIPTION": "Become an Aspect of Design. Increases <style=cIsDamage>damage</style> by <style=cIsDamage>+100%</style>, but <style=cDeath>decreases health by 50%</style>. Periodically, launch fireballs for <style=cIsDamage>3*150%</style>."
+  }
+}

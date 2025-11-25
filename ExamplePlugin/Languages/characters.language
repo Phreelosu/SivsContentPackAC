@@ -1,0 +1,110 @@
+{
+  "strings": {
+    "ELITE_MODIFIER_TANK": "Armored {0}",
+    "ELITE_MODIFIER_TOXIC": "Toxic {0}",
+    "ELITE_MODIFIER_EMPOWERING": "Empowering {0}",
+    "ELITE_MODIFIER_TAR": "Tar Symbiont ({0})",
+    "ELITE_MODIFIER_SHADOW": "Obscuring {0}",
+    "ELITE_MODIFIER_SUPERBOSS": "Juggernaut {0}",
+    "ELITE_MODIFIER_UNSTABLE": "Prototype {0}",
+    "ELITE_MODIFIER_CHAMPION": "Champion {0}",
+
+    "SCAVLUNAR_NEW_BODY_NAME": "Bipbip the Hunter",
+
+    "CHAMPION_SUBTITLE_GENERIC": "Hero of Petrichor V",
+    "CHAMPION_SUBTITLE_IMP": "Ambassador of the Red Plane",
+    "CHAMPION_SUBTITLE_LUNAR": "Magnum Opus",
+    "CHAMPION_SUBTITLE_VOID": "Cosmic Warden",
+    "CHAMPION_SUBTITLE_HERETIC": "Banished",
+    "CHAMPION_SUBTITLE_AURELIONITE": "Goldweaver's Retribution",
+
+    "CHAMPION_KILLERBEETLE_NAME": "The Horror",
+    "CHAMPION_ARMOREDHALCYONITE_NAME": "Shield of Aurelionite",
+    "CHAMPION_JELLYFISHTANK_NAME": "Approaching Demise",
+    "CHAMPION_ELEMENTALRING_NAME": "Image of Matrimony",
+    "CHAMPION_SMITER_NAME": "Grand Wisp",
+    "CHAMPION_MINIWORSHIPUNIT_NAME": "Faithful Probe",
+    "CHAMPION_REDBARON_NAME": "Imp Nobility",
+    "CHAMPION_DEATHURCHIN_NAME": "Star of N'kuhana",
+    "CHAMPION_SNIPERHERMIT_NAME": "Shelled Artillery",
+    "CHAMPION_HERETIC_NAME": "Kur'skan the Heretic",
+    "CHAMPION_AURELIONITE_NAME": "Aurelionite, Unchained",
+
+
+    "CHARACTER_KINGBODY_NAME": "King",
+    "CHARACTER_KINGBODY_SUBTITLE": "False Monarch",
+
+    "CHARACTER_DOCBODY_NAME": "Doc",
+    "CHARACTER_DOCBODY_SUBTITLE": "Mad Scientist",
+
+    "CHARACTER_DOCBODY_PRIMARY_NAME": "Volatile Concoction",
+    "CHARACTER_DOCBODY_PRIMARY_DESCRIPTION": "Rapidly toss a potion that detonates on impact for <style=cIsDamage>100% damage</style>. Keeps you <style=cIsUtility>in the air for a moment</style> while used.",
+    "CHARACTER_DOCBODY_PRIMARY2_NAME": "Acidic Concoction",
+    "CHARACTER_DOCBODY_PRIMARY2_DESCRIPTION": "Rapidly toss a potion that applies a <style=cIsHealing>stacking poison</style> that damages foes for <style=cIsDamage>80% damage per second</style>. Keeps you <style=cIsUtility>in the air for a moment</style> while used.",
+    "CHARACTER_DOCBODY_SECONDARY_NAME": "Pressure Burst Jump",
+    "CHARACTER_DOCBODY_SECONDARY_DESCRIPTION": "<style=cIsHealth>5-25% HP</style>, <style=cIsDamage>Stunning</style>. Press and hold to build up pressure, creating an explosion on release that <style=cIsUtility>launches you into the air</style> and damages enemies for <style=cIsDamage>400% to 1600% damage</style>.",
+    "CHARACTER_DOCBODY_SECONDARY2_NAME": "Chemical Fountain",
+    "CHARACTER_DOCBODY_SECONDARY2_DESCRIPTION": "",
+    "CHARACTER_DOCBODY_UTILITY_NAME": "Pressure Burst Dash",
+    "CHARACTER_DOCBODY_UTILITY_DESCRIPTION": "Create an explosion at your feet, damaging enemies for <style=cIsDamage>300% damage</style> and <style=cIsUtility>launching you forwards</style>. Hold up to 3.",
+    "CHARACTER_DOCBODY_UTILITY2_NAME": "Chemical Spill",
+    "CHARACTER_DOCBODY_UTILITY2_DESCRIPTION": "",
+    "CHARACTER_DOCBODY_SPECIAL_NAME": "Mad Science",
+    "CHARACTER_DOCBODY_SPECIAL_DESCRIPTION": "Deploy your cauldron to brew up one of <style=cIsUtility>multiple special potions</style>. While brewing, <style=cDeath>you cannot move</style> but gain <style=cIsUtility>100 armor</style>. Use again to use the <style=cIsDamage>prepared potion</style>.",
+    "CHARACTER_DOCBODY_SPECIAL_POTION1_NAME": "Scorching Ale",
+    "CHARACTER_DOCBODY_SPECIAL_POTION1_DESCRIPTION": "Launch <style=cIsDamage>magma bombs</style>, dealing <style=cIsDamage>5*300% damage</style>.",
+    "CHARACTER_DOCBODY_SPECIAL_POTION2_NAME": "Iced Tea",
+    "CHARACTER_DOCBODY_SPECIAL_POTION2_DESCRIPTION": "<style=cIsUtility>Snap-freeze</style> nearby foes, damaging them for <style=cIsDamage>100% damage</style> and freezing them.",
+    "CHARACTER_DOCBODY_SPECIAL_POTION3_NAME": "Healthy Seltzer",
+    "CHARACTER_DOCBODY_SPECIAL_POTION3_DESCRIPTION": "Heal yourself and nearby allies for <style=cIsHealing>100% health</style>. Grants <style=cIsDamage>20% barrier</style>.",
+    "CHARACTER_DOCBODY_SPECIAL_POTION4_NAME": "Power Soda",
+    "CHARACTER_DOCBODY_SPECIAL_POTION4_DESCRIPTION": "<style=cIsUtility>Boosts all stats</style> for yourself and nearby allies for <style=cIsUtility>5 seconds</style>.",
+    "CHARACTER_DOCBODY_SPECIAL_POTION5_NAME": "Killer Brew",
+    "CHARACTER_DOCBODY_SPECIAL_POTION5_DESCRIPTION": "Toss a splash potion that damages foes for <style=cIsDamage>400% damage</style>. Guaranteed to <style=cIsUtility>activate on-hit items</style>.",
+
+
+    "CHARACTER_REAPERBODY_NAME": "Reaper",
+    "CHARACTER_REAPERBODY_SUBTITLE": "Her Emissary",
+    "KEYWORD_CHANNELING_REAPER": "<style=cKeywordName>Channeling</style><style=cSub>Press and hold this skill to transform harvested Souls into <style=cIsHealing>Soul Power</style>, granting stacking bonuses per Soul absorbed.</i></style>",
+    "KEYWORD_REAPING_REAPER": "<style=cKeywordName>Reaping</style><style=cSub>Slaying an enemy harvests their Soul for later use.</i></style>",
+
+    "CHARACTER_REAPERBODY_PASSIVE_NAME": "Paranormality",
+    "CHARACTER_REAPERBODY_PASSIVE_DESCRIPTION": "Skills with the <style=cIsUtility>Reaping</style> keyword harvest the souls of slain enemies, granting you <style=cIsHealing>Soul Power</style>. Skills with the <style=cIsUtility>Channeling</style> keyword can be powered up by spending <style=cIsHealing>Soul Power</style>.",
+
+    "CHARACTER_REAPERBODY_PRIMARY_NAME": "REAP",
+    "CHARACTER_REAPERBODY_PRIMARY_DESCRIPTION": "Reaping. Rend foes with your scythe for <style=cIsDamage>250%</style> damage. Every <style=cIsUtility>fourth attack</style> deals <style=cIsDamage>380%</style> and hits across a wider area.",
+
+    "CHARACTER_REAPERBODY_SECONDARY1_NAME": "BOOMER_SCYTHE",
+    "CHARACTER_REAPERBODY_SECONDARY1_DESCRIPTION": "Reaping. Toss your scythe like a boomerange for <style=cIsDamage>300%</style> damage. Deals <style=cIsDamage>double damage on the way back<style>. <style=cDeath>Disables use of Reaping skills when thrown</style>.",
+    "CHARACTER_REAPERBODY_SECONDARY2_NAME": "ECTO_CASCADE",
+    "CHARACTER_REAPERBODY_SECONDARY2_DESCRIPTION": "Channeling. Bombard an area with soul power, dealing <style=cIsDamage>400%</style> in an area.",
+    "KEYWORD_REAPERSECONDARY2": "<style=cKeywordName>Channeling Bonus</style><style=cSub>Increases base damage by <style=cIsDamage>200%</style> per soul absorbed.</i></style>",
+
+    "CHARACTER_REAPERBODY_UTILITY1_NAME": "ECTO_FUEL",
+    "CHARACTER_REAPERBODY_UTILITY1_DESCRIPTION": "Channeling. <style=cIsHealing>Heal</style for <style=cIsHealing>20%</style> of your max health.",
+    "KEYWORD_REAPERUTILITY1": "<style=cKeywordName>Channeling Bonus</style><style=cSub>Heals nearby allies. Increase the amount healed by <style=cIsHealing>20%</style> of your max health per soul absorbed.</i></style>",
+    "CHARACTER_REAPERBODY_UTILITY2_NAME": "INSTANT_DEATH",
+    "CHARACTER_REAPERBODY_UTILITY2_DESCRIPTION": "Channeling. Reaping. Dash forwards, slashing enemies for <style=cIsDamage>300%</style> damage. <style=cIsDamage>Executes</style> low health enemies.",
+    "KEYWORD_REAPERUTILITY2": "<style=cKeywordName>Channeling Bonus</style><style=cSub>Shroud yourself in darkness, dealing an additional <style=cIsDamage>150%</style> damage in a wider area. Increases distance traveled by <style=cIsUtility>5m</style> per soul absorbed.</i></style",
+
+    "CHARACTER_REAPERBODY_SPECIAL_NAME": "ECTOPLASM",
+    "CHARACTER_REAPERBODY_SPECIAL_DESCRPTION": "Channeling. Fire a piercing soul bullet for <style=cIsDamage>250%</style> damage.",
+    "KEYWORD_REAPERSPECIAL": "<style=cKeywordName>Channeling Bonus</style><style=cSub>Increases base damage by <style=cIsDamage>+100%</style> and distance traveled by <style=cIsUtility>10m</style> per soul absorbed.</i></style",
+
+    "CHARACTER_DEVOTEEBODY_NAME": "Devotee",
+    "CHARACTER_DEVOTEEBODY_SUBTITLE": "Apostle of Petrichor V",
+    "CHARACTER_DEVOTEEBODY_LORE": "> Automated report 2FCE35FCSS12GEF is now available from site record 288EFBEAA0016.\n> Please refer to record 10052138FBEA16 for additional details during your review.\n> Report Type: Machine-generated Transcription> base Vernacular Profile \"Margaret\" \\n> Source: 288EFBEAA0016 (Acoustic Histogram of Site #051-A)\\n> Priority: High\\n> Report Content:\\n\\n-- Beginning of Excerpt Flagged for Review --\\n\\n<style=cSub>[apostle]...? What are you doing?</style>\\n\\n[apostle]. I did not think you would be awake at this hour.\\n\\n<style=cSub>You... wait, those beads! [apostle], what are you doing with those? You know if you're caught with those, [Providence] will-</style>\\n\\n[Providence] is dead, [apostle]. He is no longer here to keep us chained here. \\n\\n<style=cSub>[apostle], don't speak in such tones!</style>\\n\\nI have seen the truth. The \"gods\" we worship are not as infallible as we believed. Is this paradise? It is a cage! [Providence] took our people from one doom to another, to waste away as his pets. Never to question, never to dare speak back against him. Even [the enemy], on the other side of these beads... He is just another petty deity using us as pawns in his game of vengeance. No more. With this blade, I will cut him down and end the tyranny of these so-called gods over Petrichor V.\\n\\n<style=cSub>[apostle]...I... I don't understand...</style>\\n\\nI do not expect you to. I am leaving, [apostle]. I am going to join those who are of similar mind to me. I suggest you return to your chambers and forget you ever saw me. At least then, you will not be suspected of colluding with me.\\n\\n<style=cSub>[apostle]... Please, whatever happens... Be safe.</style>\\n\\n...I will. Farewell, [apostle]. We will be free soon. Free to make our own lives outside of the gods. All of us.\\n\\n-- End of Recording --\\n\\n-- End of Excerpt Flagged for Review --\\n> TRANSLATION ERRORS: 3\\n> 1> [apostle] could not be fully translated.\\n> 2> [Providence] could not be fully translated.\\n> 3> [The enemy] could not be fully translated.\\n\\n> Please refer to report 0122003FGABB00 for full audio excerpt.",
+
+    "CHARACTER_BEAMGOLEM_NAME": "Marble Golem",
+    "CHARACTER_BEAMGOLEM_LORE": "",
+
+    "CHARACTER_VOIDLET_NAME": "Void Crawler",
+    "CHARACTER_VOIDLET_LORE": "",
+
+    "CHARACTER_SENTRY_NAME": "Stone Sentry",
+    "CHARACTER_SENTRY_LORE": "",
+
+    "SKILL_FALSESON_LUNARLIGHTNING_NAME": "Wrath of the Son",
+    "SKILL_FALSESON_LUNARLIGHTNING_DESCRIPTION": "Call forth a lightning storm, striking nearby enemies with lightning for 800%, inflicting Lunar Ruin, and recovering Lunar Spikes on hit. The storm's duration and ferocity increase with Growth."
+  }
+}

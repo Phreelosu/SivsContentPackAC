@@ -1,0 +1,11 @@
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.csproj.AssemblyReference.cache
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.AssemblyInfoInputs.cache
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.AssemblyInfo.cs
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.csproj.CoreCompileInputs.cache
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.sourcelink.json
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\bin\Debug\netstandard2.0\SivsContentPack.deps.json
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\bin\Debug\netstandard2.0\SivsContentPack.dll
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\bin\Debug\netstandard2.0\SivsContentPack.pdb
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.dll
+C:\Users\devin\Documents\RoR2SivsContentPack\ExamplePlugin\obj\Debug\netstandard2.0\SivsContentPack.pdb

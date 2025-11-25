@@ -1,0 +1,21 @@
+﻿{
+  "strings": {
+    "ACHIEVEMENT_OBTAINARTIFACTSPECIALIZEDITEMS_NAME": "Trial of Design",
+    "ACHIEVEMENT_OBTAINARTIFACTSPECIALIZEDITEMS_DESCRIPTION": "Complete the Trial of Design.",
+
+    "ACHIEVEMENT_UNLOCKGODTIER_NAME": "A New World Of Power",
+    "ACHIEVEMENT_UNLOCKGODTIER_DESCRIPTION": "Unlock a God Tier item.",
+
+    "ACHIEVEMENT_UNLOCKGODMODE_NAME": "King's Bounty",
+    "ACHIEVEMENT_UNLOCKGODMODE_DESCRIPTION": "Obtain the King of Nothing's unique item.",
+
+    "ACHIEVEMENT_UNLOCKVOIDEYE_NAME": "Branching Potential",
+    "ACHIEVEMENT_UNLOCKVOIDEYE_DESCRIPTION": "Obtain the Diviner of the Deep's unique item.",
+
+    "ACHIEVEMENT_UNLOCKTHUNDERAURA_NAME": "Heart of Gold",
+    "ACHIEVEMENT_UNLOCKTHUNDERAURA_DESCRIPTION": "Obtain the Eye of the Storm's unique item.",
+
+    "ACHIEVEMENT_UNLOCKLUNARROSARY_NAME": "Twisted Devotion",
+    "ACHIEVEMENT_UNLOCKLUNARROSARY_DESCRIPTION": "Obtain a Twisted Scavenger's unique item."
+  }
+}

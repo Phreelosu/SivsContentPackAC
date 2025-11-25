@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 2474218523
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8ac1a610faa18c1d46dee52216c0fa36
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a2bbba0eea9d5210011e14e81f95551f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1070810522, guid: 92ed9db9612f88c0f7257087a5a8d084, type: 3}
+- Class: 114
+  Script: {fileID: 1032072274, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 802575700, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1746479147, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Stuff/Artifacts/SpecializedItems/adSpecializedItems.asset
+- Assets/Stuff/Artifacts/matCompoundTriangle.mat
+- Assets/Stuff/Artifacts/SpecializedItems/PickupDesign.prefab
+- Assets/Stuff/Artifacts/SpecializedItems/Artifacts.SpecializedItems.asset
+- Assets/Stuff/Artifacts/matCompoundSquare.mat
+- Assets/Stuff/Artifacts/matArtifact.mat
+- Assets/Stuff/Artifacts/matCompoundDiamond.mat
+- Assets/Stuff/Artifacts/SpecializedItems/matDesignCore.mat
+- Assets/Stuff/Artifacts/SpecializedItems/acodeSpecializedItems.asset
+- Assets/Stuff/Artifacts/matCompoundCircle.mat
+Dependencies:
+- C:/Users/devin/Documents/RoR2SivsContentPack/ExamplePlugin/Assets/sivscontentpack_main

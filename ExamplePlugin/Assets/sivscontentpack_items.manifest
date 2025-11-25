@@ -1,0 +1,859 @@
+ManifestFileVersion: 0
+CRC: 3188320925
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 05a613dc8bc6adf1f0e6f076be135360
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac729561e0def41ff259dd105583d3cd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2011550347, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1985007777, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1024779430, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1044368294, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1297580292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2137989374, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1790887305, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1093966913, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 422384671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1245112779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1395413934, guid: da77c7bbf69f66ab2145560542327715, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 1518736395, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1220875036, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1490543093, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1918207524, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1324642361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1252323107, guid: 90eda32cd325c26600dacf144354b407, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
+- Class: 114
+  Script: {fileID: -806885394, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
+- Class: 114
+  Script: {fileID: -667331979, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: -2119659324, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2051541306, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1184802484, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -132178706, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -354346302, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1783169300, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1845404088, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 662316482, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -335047464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -960361785, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1897863358, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512808244, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 802575700, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -875252823, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1848410712, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2044128026, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1294804675, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1479993534, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 378867107, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1542677001, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1006468269, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -573374155, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -492659515, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1387411909, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2130789662, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -432102721, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1848696948, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1460103574, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -848926067, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -974958137, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1810124184, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -972489570, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -317677761, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -714127166, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -270136354, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -899414464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -941154584, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1952984350, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1839950351, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 717380117, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1124653335, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -565067572, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -884249655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 630417361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -306948816, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1895344032, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1561644061, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -408685376, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -662483879, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1746479147, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1752031980, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
+- Class: 114
+  Script: {fileID: -130519023, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
+- Class: 114
+  Script: {fileID: -1662560420, guid: 2b6c926553287666f24ffd5af5ba21cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: AK.Wwise.Unity.API.WwiseTypes
+  ClassName: AK.Wwise.Event
+- AssemblyName: AK.Wwise.Unity.MonoBehaviour
+  ClassName: AkGameObjListenerList
+- AssemblyName: AK.Wwise.Unity.MonoBehaviour
+  ClassName: AkGameObjPositionOffsetData
+- AssemblyName: RoR2
+  ClassName: ChildLocator/NameTransformPair
+- AssemblyName: RoR2
+  ClassName: EntityStates.SerializableEntityStateType
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterModel/RendererInfo
+- AssemblyName: RoR2
+  ClassName: RoR2.DamageTypeCombo
+- AssemblyName: RoR2
+  ClassName: RoR2.ItemDef/Pair
+- AssemblyName: RoR2
+  ClassName: RoR2.MageElement
+- AssemblyName: RoR2
+  ClassName: RoR2.OmniEffect/OmniEffectElement
+- AssemblyName: RoR2
+  ClassName: RoR2.OmniEffect/OmniEffectGroup
+- AssemblyName: RoR2
+  ClassName: RoR2.TeamAreaIndicator/TeamMaterialPair
+- AssemblyName: RoR2
+  ClassName: Wave
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.BoolParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.GradingModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Spline
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.SplineParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TextureParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TonemapperParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector4Parameter
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Glyph
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkHash128
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkSceneId
+Assets:
+- Assets/Stuff/MiscMaterials/matGlowItemPickup.mat
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matGlass.mat
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/matFrenzyOnBossKillWave.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matLightningInicator.mat
+- Assets/Stuff/Items/Enemy/Geode/matGeode.mat
+- Assets/Stuff/Items/Enemy/SmiteOnHit/SmiteOnHitFollower.prefab
+- Assets/Stuff/Items/Rare/Placebo/matPillTransparent.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/LightningStrikeImpactEffect.prefab
+- Assets/Stuff/MiscMaterials/matIce.mat
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/matPhantomSaberProc.mat
+- Assets/Stuff/Items/Equipment/FireburstOnFreeze/PickupThermostat.prefab
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/texBuffFrenzyOnBossKill.png
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/matGoldSaber.mat
+- Assets/Stuff/Items/Rare/Shieldbreaker/Shieldbreaker.asset
+- Assets/Stuff/Items/Uncommon/GoldIdol/matRuneGold.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matShockAttack.mat
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matBlood.mat
+- Assets/Stuff/Items/Enemy/VoidShackles/matVSProcShockwave.mat
+- Assets/Stuff/Items/Lunar/Egg/matEggStar.mat
+- Assets/Stuff/Items/Common/GlassShield/GlassShieldBroken.asset
+- Assets/Stuff/Items/Enemy/NullSeed/PickupNullSeed.prefab
+- Assets/Stuff/Items/Common/BoostExperience/BoostExperience.asset
+- Assets/Stuff/Items/Enemy/FireEye/matFireEyeProcOrb.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matSingularityDust.mat
+- Assets/Stuff/Items/Uncommon/ProjectileBoost/matTrimsheetThruster.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletGold.mat
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/matMiniConstructProjectile.mat
+- Assets/Stuff/Items/Enemy/VoidShackles/matVoidShackles.mat
+- Assets/Stuff/Items/GodTier/GodMode/GodMode.asset
+- Assets/Stuff/Items/Enemy/MiniWisp/MiniWispProjectile.prefab
+- Assets/Stuff/Items/GodTier/GodMode/DisplayBrotherGodmode.prefab
+- Assets/Stuff/Items/Enemy/Tentacle/texTentacleIcon.png
+- Assets/Stuff/Items/Lunar/Grudge/matGrudgeTrail.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/DisplayWispOnKill.prefab
+- Assets/Stuff/Items/Common/GlassShield/matGlassShield.mat
+- Assets/Stuff/Items/Equipment/ChargingLaser/matChargingLaserTrimsheet.mat
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/DisplayFrenzyOnBossKill.prefab
+- Assets/Stuff/Items/GodTier/HighlightTierGodItem.prefab
+- Assets/Stuff/Items/Enemy/LunarExplodeOnDeath/LunarExplodeOnDeath.asset
+- Assets/Stuff/Items/Enemy/MiniWisp/matWispMineNapkin.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneMountain.mat
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/matNuclearGlow.mat
+- Assets/Stuff/Items/Enemy/ProjectileKiller/matShockwaveSphere.mat
+- Assets/Stuff/Items/Lunar/Egg/matEggPlanet1.mat
+- Assets/Stuff/Items/Rare/Placebo/matPill.mat
+- Assets/Stuff/Items/Equipment/FireburstOnFreeze/FireBurstOnFreezeProc.prefab
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidMetal.mat
+- Assets/Stuff/Items/Enemy/GriefFlower/matGriefProc.mat
+- Assets/Stuff/Items/Equipment/DeathImmunity/DeathImmunity.asset
+- Assets/Stuff/Items/Enemy/BeetlePlush/displayBeetlePlush.prefab
+- Assets/Stuff/Items/Enemy/ImpEye/PickupImpsEye.prefab
+- Assets/Stuff/Items/Enemy/ProjectileKiller/matPKSoundwave.mat
+- Assets/Stuff/Items/Uncommon/UpgradeChests/UpgradeChests.asset
+- Assets/Stuff/Items/Enemy/Mushroom/matSporeGas.mat
+- Assets/Stuff/Items/Lunar/Grudge/GrudgeProjectile.prefab
+- Assets/Stuff/Items/Enemy/Tentacle/matTentacle.mat
+- Assets/Stuff/Items/Lunar/Grudge/matGrudgeNail.mat
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/matMiniConstructTrail.mat
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/miniConstructs.fbx
+- Assets/Stuff/Items/GodTier/VoidEye/matSingularityBillboard.mat
+- Assets/Stuff/Items/Lunar/VoidSeedSpawner/matVSSMetal.mat
+- Assets/Stuff/MiscMaterials/matLightningLongYellow.mat
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/bdArmorZone.asset
+- Assets/Stuff/Items/Enemy/Geode/PickupGeode.prefab
+- Assets/Stuff/Items/Lunar/Egg/matEggPlanet3.mat
+- Assets/Stuff/Items/Enemy/BighornBuckler/texBisonShieldInactive.png
+- Assets/Stuff/MiscMaterials/matLightningLongBlue.mat
+- Assets/Stuff/MiscMaterials/matArcaneCircleWisp.mat
+- Assets/Stuff/Items/Enemy/IgniteOnHit/IgniteOnHit.asset
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matSmiteBlast.mat
+- Assets/Stuff/Items/Enemy/Tentacle/Tentacle.asset
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/dragonBlood.fbx
+- Assets/Stuff/Items/Enemy/ImpEye/DisplayImpEye.prefab
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraCooldown.asset
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidEyeFog.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneBlood.mat
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matSparkPFlame.mat
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matSmiteLightning.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/MuzzleflashMiniWisp.prefab
+- Assets/Stuff/Items/Enemy/BeetleHammer/texBeetleHammerIcon.png
+- Assets/Stuff/Items/Enemy/BighornBuckler/BisonShieldReady.asset
+- Assets/Stuff/Items/Uncommon/UpgradeChests/DisplayEnvelope.prefab
+- Assets/Stuff/Items/Common/GoldStar/matCoin1.mat
+- Assets/Stuff/Items/GodTier/GodMode/texGodModeIcon.png
+- Assets/Stuff/Items/Enemy/ProjectileKiller/matBellTrimsheet.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/matCorruptionTakesHold2.mat
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/matNuclearBlock.mat
+- Assets/Stuff/Items/Enemy/Mushroom/matSporeGrenadeTrail.mat
+- Assets/Stuff/MiscMaterials/matFireGeneric.mat
+- Assets/Stuff/Items/Rare/Placebo/texPlaceboIcon.png
+- Assets/Stuff/Items/Enemy/Tarbine/Tarbine.asset
+- Assets/Stuff/Items/Enemy/NullSeed/DisplayNullSeed.prefab
+- Assets/Stuff/MiscMaterials/matTracer.mat
+- Assets/Stuff/Items/Enemy/FireEye/texRampWormEye.png
+- Assets/Stuff/Items/Void/StickyBombVoid/matSBVAura.mat
+- Assets/Stuff/MiscMaterials/matTracerBlack.mat
+- Assets/Stuff/Items/Enemy/Geode/bgGeodeArmor.asset
+- Assets/Stuff/Items/GodTier/LunarRosary/TransformationCompleteFX.prefab
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matDragonBand.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matPrimeDevastatorChargeVFX2.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletSoul.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matPrimeDevastatorChargeVFX3.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/matRosary.mat
+- Assets/Stuff/Items/Enemy/VoidShackles/VoidShackles.asset
+- Assets/Stuff/Items/Enemy/Tentacle/matTentacleTether.mat
+- Assets/Stuff/Items/Enemy/MeleeAttackSpeed/MeleeAttackSpeed.asset
+- Assets/Stuff/Items/GodTier/ThunderAura/matLightningStrikeImpactEffect1.mat
+- Assets/Stuff/Items/Common/HealOnCooldown/matWBWater.mat
+- Assets/Stuff/Items/Enemy/GriefFlower/DisplayGriefFlower.prefab
+- Assets/Stuff/Items/GodTier/GodMode/matBrotherDisplaySigil.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidCrab.mat
+- Assets/Stuff/Items/Enemy/Mushroom/matSporeGrenade.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matSingularityDistortion.mat
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/miniConstructPickup.fbx
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/PickupBlockLowDamageHits.prefab
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/texYellowItemOnKillGhostIcon.png
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraDamage.asset
+- Assets/Stuff/Items/Rare/Shieldbreaker/DisplayShieldbreaker.prefab
+- Assets/Stuff/Items/Lunar/Grudge/Grudge.asset
+- Assets/Stuff/Items/GodTier/GodMode/matLunarSpike.mat
+- Assets/Stuff/Items/Lunar/Monocle/Monocle.asset
+- Assets/Stuff/Items/Enemy/ProjectileKiller/matPKRangeIndicator.mat
+- Assets/Stuff/Items/Equipment/DeathImmunity/DeathImmunityProcEffect.prefab
+- Assets/Stuff/Items/Enemy/VoidShackles/matVSShackle.mat
+- Assets/Stuff/Items/Void/EnergyDrinkVoid/DisplayVoidSoda.prefab
+- Assets/Stuff/Items/GodTier/LunarRosary/CorruptedSpikeImpact.prefab
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/PickupHealthBasedDamageBonus.prefab
+- Assets/Stuff/Items/Enemy/Mushroom/DisplayMushroom.prefab
+- Assets/Stuff/Items/Common/ProcBoost/texProcBoostIcon.png
+- Assets/Stuff/Items/GodTier/VoidEye/matSingularityTether.mat
+- Assets/Stuff/Items/Rare/Shieldbreaker/PickupShieldbreaker.prefab
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matDragonBand_Mixed_AO.png
+- Assets/Stuff/MiscMaterials/matOmniRing1Generic.mat
+- Assets/Stuff/Items/Void/StickyBombVoid/VoidMineVFX.prefab
+- Assets/Stuff/MiscMaterials/matDistortion.mat
+- Assets/Stuff/Items/Rare/Placebo/PickupPlacebo.prefab
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/matNuclearGoo.mat
+- Assets/Stuff/Items/GodTier/VoidEye/SingularityProj.prefab
+- Assets/Stuff/Items/Equipment/DeathImmunity/bdDeathImmunity.asset
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneChance.mat
+- Assets/Stuff/Items/GodTier/GodMode/matGodModeHead.mat
+- Assets/Stuff/Items/Enemy/GoldArmorBoost/GoldArmorBoost.asset
+- Assets/Stuff/Items/Uncommon/MoneyObjectOnSpawn/MoneyObjectOnSpawn.asset
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraHealth.asset
+- Assets/Stuff/Items/Enemy/BeetleHammer/BeetleHammer.asset
+- Assets/Stuff/Items/GodTier/GodMode/DisplayGodMode.prefab
+- Assets/Stuff/Items/Common/FlatHealingBonus/PickupMilk.prefab
+- Assets/Stuff/Items/Common/GlassShield/GlassShieldBreakEffect.prefab
+- Assets/Stuff/Items/Enemy/ImpEye/matImpEyeHolder.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletWoods.mat
+- Assets/Stuff/Items/Uncommon/HealOnLevelUp/matHealOnLevelUp.mat
+- Assets/Stuff/Items/Enemy/DoubleProjectiles/matRJProc.mat
+- Assets/Stuff/Items/Lunar/Grudge/matGrudgeAura.mat
+- Assets/Stuff/Items/Equipment/DeathImmunity/DeathImmunityEffect.prefab
+- Assets/Stuff/Items/Lunar/VoidSeedSpawner/matVSSSeed.mat
+- Assets/Stuff/Items/Equipment/ChargingLaser/matCLElectric.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/Animations/miniWispChargeEmbers.anim
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matGreaterWispRays.mat
+- Assets/Stuff/Items/Lunar/Egg/matEgg.mat
+- Assets/Stuff/Items/Lunar/Egg/EggUsed.asset
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/PickupTeleporterArmorZone.prefab
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/DropYellowItemOnKillUsed.asset
+- Assets/Stuff/Items/Equipment/DeathImmunity/PickupDeathImmunity.prefab
+- Assets/Stuff/Items/Lunar/PiggyBank/bdStoredCoin.asset
+- Assets/Stuff/MiscMaterials/matGlow2Soft.mat
+- Assets/Stuff/Items/Common/GoldStar/matGoldStar.mat
+- Assets/Stuff/Items/Void/StickyBombVoid/matVoidMineFlame.mat
+- Assets/Stuff/Items/Enemy/ImpEye/ImpsEye.asset
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/matFrenzyOnBossKillOverlay.mat
+- Assets/Stuff/Items/GodTier/VoidEye/DisplayVoidEyeRaidCrab.prefab
+- Assets/Stuff/Items/GodTier/LunarRosary/udLunarRosary.asset
+- Assets/Stuff/Items/Enemy/FireEye/FireEye.asset
+- Assets/Stuff/Items/Equipment/DeathImmunity/matAngel.mat
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matDragonBand_Emissive.png
+- Assets/Stuff/Items/Enemy/BeetlePlush/matBeetlePlush.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidCrabEyes.mat
+- Assets/Stuff/Items/Enemy/BighornBuckler/matBisonShieldCharge 1.mat
+- Assets/Stuff/Items/Enemy/BeetlePlush/beetlePlushRegenWard.prefab
+- Assets/Stuff/Items/Enemy/VoidShackles/matVSFog.mat
+- Assets/Stuff/Items/Enemy/BeetleHammer/DisplayBeetleHammer.prefab
+- Assets/Stuff/Items/GodTier/ThunderAura/udThunderAura.asset
+- Assets/Stuff/Items/GodTier/GodMode/matLunarWispFlames.mat
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/BlockLowDamageHitsProc.prefab
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/texFrenzyOnBossKillIcon.png
+- Assets/Stuff/Items/Equipment/ChargingLaser/matCLDisplayGlow.mat
+- Assets/Stuff/Items/Enemy/Tentacle/DisplayTentacle.prefab
+- Assets/Stuff/Items/Enemy/SmiteOnHit/SmiteEffect.prefab
+- Assets/Stuff/Items/Equipment/FireburstOnFreeze/FireBurstOnFreeze.asset
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/texOrbitingConstructsIcon.png
+- Assets/Stuff/Items/Enemy/Mushroom/MushroomWard.prefab
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/DisplayMedalUsed.prefab
+- Assets/Stuff/MiscMaterials/matDustOpaque.mat
+- Assets/Stuff/Items/Enemy/GriefFlower/matGriefFlower.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/bdLunarCorruption.asset
+- Assets/Stuff/Items/Void/StickyBombVoid/PickupStickyBombVoid.prefab
+- Assets/Stuff/Items/GodTier/LunarRosary/CorruptionTakesHoldFX.prefab
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/bdFrenzyOnBossKill.asset
+- Assets/Stuff/Items/GodTier/LunarRosary/matLesserPearl.mat
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matGreaterWispFire.mat
+- Assets/Stuff/Items/Common/GlassShield/DisplayGlassShield.prefab
+- Assets/Stuff/Items/GodTier/VoidEye/DisplayVoidEye.prefab
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/dragonBand.fbx
+- Assets/Stuff/MiscMaterials/matOmniHitspark1.mat
+- Assets/Stuff/MiscMaterials/matGlow1.mat
+- Assets/Stuff/MiscMaterials/matInverseDistortion.mat
+- Assets/Stuff/Items/Common/FlatHealingBonus/FlatHealingIncrease.asset
+- Assets/Stuff/Items/Equipment/SlowTime/matTimeDistortion.mat
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/matPoliceTape.mat
+- Assets/Stuff/Items/Enemy/FireEye/FireEyeProcOrb.prefab
+- Assets/Stuff/Items/GodTier/GodTierOrb.prefab
+- Assets/Stuff/Items/Enemy/BeetlePlush/BeetlePlush.asset
+- Assets/Stuff/Items/Common/HealOnCooldown/matWBCap.mat
+- Assets/Stuff/Items/Enemy/Geode/texGeodeIcon.png
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/matNeutronium.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/DisplayThunderStorm.prefab
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/matArmorZone.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/LunarRosary.asset
+- Assets/Stuff/Items/Enemy/BighornBuckler/matBisonShieldCharge.mat
+- Assets/Stuff/Items/Lunar/PiggyBank/matPiggyBank.mat
+- Assets/Stuff/Items/Common/GlassShield/matGlassShards.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletBlood.mat
+- Assets/Stuff/Items/GodTier/GodMode/udGodMode.asset
+- Assets/Stuff/Items/Equipment/ChargingLaser/DisplayChargingLaser.prefab
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/matFrenzyOnBossKillPulse.mat
+- Assets/Stuff/Items/Enemy/BeetlePlush/displayBeetlePlushSitting.prefab
+- Assets/Stuff/Items/Enemy/SmiteOnHit/Smite.prefab
+- Assets/Stuff/Items/Equipment/ChargingLaser/matCLLaser.mat
+- Assets/Stuff/Items/Uncommon/UpgradeChests/UpgradeEffect.prefab
+- Assets/Stuff/Items/Enemy/MeleeAttackSpeed/matTooth.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/PickupWispOnKill.prefab
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/MiniConstructChargeFX.prefab
+- Assets/Stuff/Items/Uncommon/UpgradeChests/matEnvelope.mat
+- Assets/Stuff/Items/Enemy/IgniteOnHit/matFlameSac.mat
+- Assets/Stuff/Items/Enemy/NullSeed/NullSeed.asset
+- Assets/Stuff/Items/GodTier/ThunderAura/DisplayThunderAuraFollower.prefab
+- Assets/Stuff/Items/Equipment/SlowTime/bdSlowTime.asset
+- Assets/Stuff/Items/GodTier/GodMode/LunarShockwaveGhost.prefab
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidEyeBillboard.mat
+- Assets/Stuff/Items/Common/HealOnCooldown/matWBPlastic.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matLightningSmall.mat
+- Assets/Stuff/Items/Void/StickyBombVoid/VoidMine.prefab
+- Assets/Stuff/MiscMaterials/matTeamAreaIndicatorIntersectionMonster.mat
+- Assets/Stuff/Items/Enemy/SmiteOnHit/SmiteOnHit.asset
+- Assets/Stuff/Items/GodTier/ThunderAura/matLightning.mat
+- Assets/Stuff/Items/Enemy/FireEye/DisplayFireEye.prefab
+- Assets/Stuff/Items/GodTier/VoidEye/SingularityBlast.prefab
+- Assets/Stuff/Items/Enemy/DoubleProjectiles/matRoyalJelly.mat
+- Assets/Stuff/MiscMaterials/matGlassSeeThrough.mat
+- Assets/Stuff/Items/Uncommon/ProjectileBoost/ProjectileBoost.asset
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/MiniConstructAttackOrb.prefab
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/TeleporterArmorZone.asset
+- Assets/Stuff/Items/GodTier/GodMode/matBrotherArmor 1.mat
+- Assets/Stuff/Items/Enemy/Geode/Geode.asset
+- Assets/Stuff/Items/Rare/Placebo/DisplayPill.prefab
+- Assets/Stuff/Items/Enemy/MiniWisp/matMiniWispFire.mat
+- Assets/Stuff/Items/Void/EnergyDrinkVoid/matVoidSodaSwirly.mat
+- Assets/Stuff/Items/Common/HealOnCooldown/HealOnCooldown.asset
+- Assets/Stuff/Items/Lunar/Chimera/matChimera.mat
+- Assets/Stuff/Items/Uncommon/ExtraPrinterRoll/ExtraPrinterRoll.asset
+- Assets/Stuff/MiscMaterials/matGenericFlash.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidEyeGlow.mat
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/DisplayHealthBasedDamageBonus.prefab
+- Assets/Stuff/Items/Void/StickyBombVoid/matVoidMineLight.mat
+- Assets/Stuff/Items/Void/irpVoidItems.asset
+- Assets/Stuff/Items/Enemy/ProjectileKiller/ProjectileKillerPrefab.prefab
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraCrit.asset
+- Assets/Stuff/Items/Lunar/PiggyBank/PiggyBank.asset
+- Assets/Stuff/Items/Enemy/GoldArmorBoost/DisplayGoldShard.prefab
+- Assets/Stuff/Items/Enemy/Tentacle/TentacleTether.prefab
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/OrbitingConstruct.prefab
+- Assets/Stuff/Items/Void/StickyBombVoid/matVoidMineProximity.mat
+- Assets/Stuff/MiscMaterials/matHealingCross.mat
+- Assets/Stuff/Items/Equipment/DeathImmunity/matAngelFeather.mat
+- Assets/Stuff/Items/Common/GoldStar/PickupGoldStar.prefab
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/matNuclearPastaDistortion.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/Animations/miniWispSpawn.anim
+- Assets/Stuff/Items/Enemy/ProjectileKiller/matOmniHitsparkProjectileKiller.mat
+- Assets/Stuff/Items/Equipment/SlowTime/matTimeIndicator.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/ThunderAuraProjectile.prefab
+- Assets/Stuff/Items/Enemy/Mushroom/MushroomOnKill.asset
+- Assets/Stuff/Items/Enemy/ImpEye/texImpEyeIcon.png
+- Assets/Stuff/Items/GodTier/ThunderAura/ThunderAuraStrike.prefab
+- Assets/Stuff/Items/Enemy/DoubleProjectiles/DoubleProjectiles.asset
+- Assets/Stuff/Items/Enemy/MiniWisp/Animations/miniWispIdle.anim
+- Assets/Stuff/Items/Common/GlassShield/PickupGlassShield.prefab
+- Assets/Stuff/Items/Equipment/ChargingLaser/matCLEmbers.mat
+- Assets/Stuff/Items/Void/StickyBombVoid/matVoidMineBillboard.mat
+- Assets/Stuff/Items/Enemy/BighornBuckler/DisplayBisonShield.prefab
+- Assets/Stuff/Items/GodTier/LunarRosary/matRosarySpike.mat
+- Assets/Stuff/Items/Common/GoldStar/GoldStar.asset
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matDragonBand_Height.png
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/PickupMedal.prefab
+- Assets/Stuff/Items/GodTier/GodTierSystem.prefab
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneWoods.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/matRosarySpikeAura.mat
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matDragonBand_Normal_OpenGL.png
+- Assets/Stuff/Items/GodTier/ThunderAura/DisplayThunderAura.prefab
+- Assets/Stuff/Items/Lunar/Grudge/matGrudge.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/CorruptionLiftsFX.prefab
+- Assets/Stuff/Items/Uncommon/HealOnLevelUp/efConfettiBurst.prefab
+- Assets/Stuff/Items/Uncommon/UpgradeChests/PickupEnvelope.prefab
+- Assets/Stuff/Items/Enemy/MeleeAttackSpeed/matToothOverlay.mat
+- Assets/Stuff/Items/GodTier/GodMode/matBrotherEyeTrail.mat
+- Assets/Stuff/Items/Lunar/VoidSeedSpawner/matVSSAntimatter.mat
+- Assets/Stuff/Items/GodTier/GodMode/matBrotherDisplayEye.mat
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/ArmorZone.prefab
+- Assets/Stuff/Items/GodTier/itdGodTier.asset
+- Assets/Stuff/Items/Void/EnergyDrinkVoid/EnergyDrinkVoid.asset
+- Assets/Stuff/Items/GodTier/LunarRosary/bdFullyCorrupted.asset
+- Assets/Stuff/Items/Void/WakeOfVulturesVoid/WakeOfVulturesVoid.asset
+- Assets/Stuff/Items/GodTier/VoidEye/SingularityGhost.prefab
+- Assets/Stuff/Items/Enemy/NullSeed/matNullSeed.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/WispOnKillFollower.prefab
+- Assets/Stuff/Items/Common/ProcBoost/ProcBoost.asset
+- Assets/Stuff/Items/GodTier/LunarRosary/matShinyPearl.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneSoul.mat
+- Assets/Stuff/Items/Enemy/BeetleHammer/PickupBeetleHammer.prefab
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraSpeed.asset
+- Assets/Stuff/Items/Lunar/VoidSeedSpawner/VoidSeedSpawner.asset
+- Assets/Stuff/Items/GodTier/texGodTierBGIcon.png
+- Assets/Stuff/Items/Enemy/NullSeed/DisplayNullSeedFollower.prefab
+- Assets/Stuff/Items/Void/StickyBombVoid/VoidMineGhost.prefab
+- Assets/Stuff/Items/Void/StickyBombVoid/matSBVFragment.mat
+- Assets/Stuff/Items/Common/ProcBoost/ProcBoostEffect.prefab
+- Assets/Stuff/Items/Enemy/MeleeAttackSpeed/bdMeleeAttackSpeed.asset
+- Assets/Stuff/Items/Enemy/IgniteOnHit/PickupIgniteOnHit.prefab
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidRangeIndicator.mat
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/matOrbitingConstructs.mat
+- Assets/Stuff/Items/Enemy/BighornBuckler/texBisonShieldIcon.png
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletChance.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidEyeEye.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/ThunderAuraProjExplosion.prefab
+- Assets/Stuff/Items/Enemy/Mushroom/matMushroom.mat
+- Assets/Stuff/MiscMaterials/matGenericSwingTrail 1.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/DisplayLunarRosarySpike.prefab
+- Assets/Stuff/Items/Enemy/MiniWisp/bdWispOnHit.asset
+- Assets/Stuff/Items/Enemy/Tarbine/matTrimSheetTarbine.mat
+- Assets/Stuff/Items/GodTier/GodMode/matStoneDollProv.mat
+- Assets/Stuff/Items/Rare/Placebo/Placebo.asset
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matSmiteGroundImpact.mat
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/FrenzyOnBossKill.asset
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/EffectFrenzyOnBossKillProc.prefab
+- Assets/Stuff/Items/Enemy/Tentacle/TentacleTetherOrigin.prefab
+- Assets/Stuff/Items/GodTier/ThunderAura/matLunarRainSummonVFX2.mat
+- Assets/Stuff/Items/Void/StickyBombVoid/StickyBombVoid.asset
+- Assets/Stuff/Items/Enemy/NullSeed/matNullSeedContainer.mat
+- Assets/Stuff/Items/Lunar/Monocle/matMonocle.mat
+- Assets/Stuff/Items/Common/ProcBoost/DisplayCoin.prefab
+- Assets/Stuff/Items/Uncommon/GoldIdol/DisplayGoldIdol.prefab
+- Assets/Stuff/Items/Enemy/GriefFlower/bdGrief.asset
+- Assets/Stuff/MiscMaterials/matBlood.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matFalseSonCore.mat
+- Assets/Stuff/Items/Enemy/NullSeed/texNullSeedCooldownIcon.png
+- Assets/Stuff/Items/GodTier/VoidEye/SingularityTetherFX.prefab
+- Assets/Stuff/Items/Enemy/BighornBuckler/PickupBisonShield.prefab
+- Assets/Stuff/Items/GodTier/LunarRosary/DisplayLunarRosarySpikeCluster.prefab
+- Assets/Stuff/Items/Lunar/Chimera/DisplayChimera.prefab
+- Assets/Stuff/Items/Enemy/BighornBuckler/BisonChargeEffect.prefab
+- Assets/Stuff/MiscMaterials/matLaserPointerBeam.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/matCorruptionTakesHold.mat
+- Assets/Stuff/Items/GodTier/VoidEye/udVoidEye.asset
+- Assets/Stuff/Items/GodTier/LunarRosary/CorruptedSpikeProjectile.prefab
+- Assets/Stuff/Items/Lunar/Egg/Egg.asset
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/matPickupMedal.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/RuneChance.asset
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/matTrimSheetConstructionNuclearPasta.mat
+- Assets/Stuff/Items/Enemy/Tarbine/bdTarbineActive.asset
+- Assets/Stuff/Items/Enemy/Tarbine/DisplayTarbine.prefab
+- Assets/Stuff/Items/GodTier/GodMode/matBrotherDisplayHalo.mat
+- Assets/Stuff/Items/Enemy/FireEye/matFireEyeStalk.mat
+- Assets/Stuff/Items/Enemy/VoidShackles/VoidShackleChain.prefab
+- Assets/Stuff/Items/Lunar/Egg/matEggPlanet2.mat
+- Assets/Stuff/Items/Lunar/Chimera/matChimeraFire.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matSingularityBlast.mat
+- Assets/Stuff/Items/GodTier/GodMode/matLunarShockwave.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matPrimeDevastatorChargeVFX1.mat
+- Assets/Stuff/Items/Equipment/SlowTime/matSlowTimeBubble.mat
+- Assets/Stuff/MiscMaterials/matTeamAreaIndicatorIntersectionPlayer.mat
+- Assets/Stuff/Items/Enemy/Tentacle/PickupTentacle.prefab
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneCombat.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matSingularityOrb.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/ThunderAura.asset
+- Assets/Stuff/Items/Equipment/DeathImmunity/matAngelEffect.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matVoidEyeIris.mat
+- Assets/Stuff/MiscMaterials/matTracerBright.mat
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/DropYellowItemOnKill.asset
+- Assets/Stuff/Items/Enemy/NullSeed/bdNullSeedCooldown.asset
+- Assets/Stuff/Items/Enemy/MiniWisp/MiniWispGhost.prefab
+- Assets/Stuff/Items/Enemy/FireEye/FireEyeBodyAttachment.prefab
+- Assets/Stuff/Items/Uncommon/GoldIdol/GoldIdol.asset
+- Assets/Stuff/Items/Equipment/SlowTime/matTimeRuneRibbon.mat
+- Assets/Stuff/Items/GodTier/GodMode/matTrimsheetMoon.mat
+- Assets/Stuff/Items/Enemy/Tentacle/matTentacleLightning.mat
+- Assets/Stuff/Items/Enemy/BeetlePlush/pickupBeetlePlush.prefab
+- Assets/Stuff/Items/Uncommon/ProjectileBoost/matThrusterExhaust.mat
+- Assets/Stuff/Items/Enemy/BeetlePlush/buffBeetlePlushRegenBonus.asset
+- Assets/Stuff/Items/Enemy/BighornBuckler/matBisonShield.mat
+- Assets/Stuff/Items/GodTier/LunarRosary/matPearl.mat
+- Assets/Stuff/Items/Common/FlatHealingBonus/matMilk.mat
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/animMiniConstruct.controller
+- Assets/Stuff/Items/Uncommon/HealOnLevelUp/PickupHealOnLevelUp.prefab
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/matDragonBand_Base_color.png
+- Assets/Stuff/Items/Enemy/ProjectileKiller/ProjectileKiller.asset
+- Assets/Stuff/Items/GodTier/LunarRosary/matCorruptionOverlay.mat
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/matMiniConstructElectric.mat
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/BossKillFrenzyProc.prefab
+- Assets/Stuff/Items/Enemy/VoidShackles/VoidShacklePortal.prefab
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matSmiteIndicatorWall.mat
+- Assets/Stuff/Items/Common/GoldStar/matStarEffect.mat
+- Assets/Stuff/Items/GodTier/GodMode/matGodModeEye.mat
+- Assets/Stuff/MiscMaterials/matGolemElectric.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletCombat.mat
+- Assets/Stuff/Items/Enemy/DoubleProjectiles/RoyalJellyProc.prefab
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matGreaterWispTile.mat
+- Assets/Stuff/Items/GodTier/VoidEye/ppeSingularityBlast.asset
+- Assets/Stuff/Items/Enemy/Geode/DisplayGeode.prefab
+- Assets/Stuff/Items/GodTier/ThunderAura/matThunderStorm.mat
+- Assets/Stuff/Items/Uncommon/ProjectileBoost/PickupThruster.prefab
+- Assets/Stuff/Items/Rare/Shieldbreaker/matShieldbreaker.mat
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneOrder.mat
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/TeleporterArmorZoneBarrier.prefab
+- Assets/Stuff/Items/Enemy/Mushroom/matMushroomSpore.mat
+- Assets/Stuff/Items/Enemy/GriefFlower/GriefFlower.asset
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/matMedalGhost.mat
+- Assets/Stuff/Items/Enemy/FireEye/FireEyeProcEffect.prefab
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/DisplayBlockLowDamageHits.prefab
+- Assets/Stuff/Items/Uncommon/GoldIdol/matGoldIdol.mat
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/DisplayMedal.prefab
+- Assets/Stuff/Items/Enemy/GoldArmorBoost/matGoldShard.mat
+- Assets/Stuff/Items/GodTier/VoidEye/VoidEyeBodyAttachment.prefab
+- Assets/Stuff/Items/Enemy/GriefFlower/GriefProc.prefab
+- Assets/Stuff/Items/Lunar/Grudge/matGrudgeBand.mat
+- Assets/Stuff/Items/Uncommon/TeleporterArmorZone/matHumanChainlink.mat
+- Assets/Stuff/MiscMaterials/matSquareParticle.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/matWispMineWisp.mat
+- Assets/Stuff/Items/Equipment/SlowTime/SlowTimeAreaIndicator.prefab
+- Assets/Stuff/Items/Enemy/ImpEye/matPickupImpEye.mat
+- Assets/Stuff/Items/Enemy/VoidShackles/matVoidShacklesPortalRim.mat
+- Assets/Stuff/Items/Equipment/ChargingLaser/ChargingLaser.asset
+- Assets/Stuff/Items/Enemy/SmiteOnHit/SmitePredictionEffect.prefab
+- Assets/Stuff/Items/GodTier/VoidEye/VoidEye.asset
+- Assets/Stuff/Items/Enemy/Tarbine/TarbineController.prefab
+- Assets/Stuff/Items/Lunar/Grudge/matGrudgeWarning.mat
+- Assets/Stuff/Items/Enemy/VoidShackles/matVoidShacklesPortal.mat
+- Assets/Stuff/Items/Enemy/Tarbine/PickupTarbine.prefab
+- Assets/Stuff/Items/Enemy/Mushroom/MushroomSpawner.prefab
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraRegen.asset
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/HitsparkOrbitingConstructs.prefab
+- Assets/Stuff/Items/Enemy/ProjectileKiller/matOmniExplosionProjectileKiller.mat
+- Assets/Stuff/Items/Uncommon/HealOnLevelUp/HealOnLevelUp.asset
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTablet.mat
+- Assets/Stuff/Items/Enemy/ImpEye/matDisplayImpEye.mat
+- Assets/Stuff/Items/Enemy/VoidShackles/matVSPortalSuck.mat
+- Assets/Stuff/Items/Uncommon/HealOnLevelUp/matConfetti.mat
+- Assets/Stuff/Items/Rare/Shieldbreaker/texIconShieldbreaker.png
+- Assets/Stuff/Items/Uncommon/ProjectileBoost/DisplayThruster.prefab
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraShields.asset
+- Assets/Stuff/Items/Uncommon/UpgradeChests/matUpgradeEffect.mat
+- Assets/Stuff/Items/Enemy/NullSeed/texNullSeedIcon.png
+- Assets/Stuff/Items/Equipment/ChargingLaser/matCLTracer.mat
+- Assets/Stuff/MiscMaterials/matSparkle.mat
+- Assets/Stuff/Items/Enemy/BighornBuckler/BisonShield.asset
+- Assets/Stuff/Items/Enemy/FireEye/matFireEyeProcRing.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/PickupThunderAura.prefab
+- Assets/Stuff/Items/Enemy/BighornBuckler/BisonShieldCooldown.asset
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletMountain.mat
+- Assets/Stuff/Items/Enemy/FireEye/matFireEye.mat
+- Assets/Stuff/Items/Enemy/SmiteOnHit/DisplaySmiteOnHit.prefab
+- Assets/Stuff/MiscMaterials/matDistortionFaded.mat
+- Assets/Stuff/Items/GodTier/VoidEye/matSingularityTracer.mat
+- Assets/Stuff/Items/Equipment/SlowTime/matPocketWatch.mat
+- Assets/Stuff/Items/Enemy/MeleeAttackSpeed/texMeleeAttackSpeedIcon.png
+- Assets/Stuff/Items/Void/EnergyDrinkVoid/matVoidSoda.mat
+- Assets/Stuff/Items/Common/GlassShield/GlassShield.asset
+- Assets/Stuff/Items/Common/Bomb/RandomExplodeBodyAttachment.prefab
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraArmor.asset
+- Assets/Stuff/Items/Enemy/MiniWisp/WispOnKill.asset
+- Assets/Stuff/Items/Common/HealOnCooldown/PickupWaterBottle.prefab
+- Assets/Stuff/Items/Equipment/SlowTime/matGlass.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/MiniWispImpact.prefab
+- Assets/Stuff/Items/Common/FlatHealingBonus/texMilkIcon.png
+- Assets/Stuff/Items/Lunar/Chimera/Chimera.asset
+- Assets/Stuff/Items/Uncommon/RevengeDamageBonus/RevengeDamageBonus.asset
+- Assets/Stuff/Items/Equipment/FireburstOnFreeze/matFireWave.mat
+- Assets/Stuff/Items/Rare/HealthBasedDamageBonus/HealthBasedDamageBonus.asset
+- Assets/Stuff/Items/Enemy/MiniWisp/Animations/miniWispFireEmbers.anim
+- Assets/Stuff/Items/Common/GoldStar/StarProcEffect.prefab
+- Assets/Stuff/MiscMaterials/matOpaqueDustLargeDirectional.mat
+- Assets/Stuff/Items/GodTier/GodMode/matStoneDollMithrix.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/matLightningIndicatorWall.mat
+- Assets/Stuff/Items/Rare/FrenzyOnBossKill/PickupFrenzyOnBossKill.prefab
+- Assets/Stuff/Items/Enemy/BeetleHammer/matBeetleHammer.mat
+- Assets/Stuff/Items/Common/HealOnCooldown/DisplayWaterBottle.prefab
+- Assets/Stuff/Items/GodTier/GodMode/LunarShockwave.prefab
+- Assets/Stuff/Items/Enemy/BighornBuckler/texBisonShieldActive.png
+- Assets/Stuff/Items/Enemy/SmiteOnHit/matSpark.mat
+- Assets/Stuff/Items/Common/GoldStar/GoldStarRewardOrb.prefab
+- Assets/Stuff/Items/Equipment/SlowTime/matTimeParticle.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/Animations/miniWispHurt.anim
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/MuzzleFlashMiniConstruct.prefab
+- Assets/Stuff/Items/Enemy/OrbitingConstructs/OrbitingConstructs.asset
+- Assets/Stuff/MiscMaterials/matOpaqueDustLarge.mat
+- Assets/Stuff/Items/Enemy/MiniWisp/animMiniWisp.controller
+- Assets/Stuff/Items/Void/EnergyDrinkVoid/matVoidSodaSingularity.mat
+- Assets/Stuff/Items/Common/ProcBoost/matCoin.mat
+- Assets/Stuff/Items/GodTier/ThunderAura/ThunderAuraProjectileGhost.prefab
+- Assets/Stuff/Items/Uncommon/RuneTablet/Materials/matRuneTabletOrder.mat
+- Assets/Stuff/Items/Equipment/ChargingLaser/matCLLightning.mat
+- Assets/Stuff/Items/Rare/BlockLowDamageHits/BlockLowDamageHits.asset
+- Assets/Stuff/Items/GodTier/GodMode/PickupGodMode.prefab
+- Assets/Stuff/Items/Equipment/ChargingLaser/matChargingLaserHolo.mat
+- Assets/Stuff/Items/Common/DebuffBoss/DebuffBoss.asset
+- Assets/Stuff/Items/Lunar/Chimera/Blessings/ChimeraLuck.asset
+- Assets/Stuff/Items/GodTier/LunarRosary/DisplayLunarRosary.prefab
+- Assets/Stuff/Items/Enemy/VoidShackles/matVSPickupChain.mat
+- Assets/Stuff/Items/Enemy/NullSeed/bdNullSeedReady.asset
+- Assets/Stuff/Items/Enemy/BeetlePlush/matBeetleRegenWard.mat
+- Assets/Stuff/Items/Uncommon/YellowItemOnKill/matMedalUsed.mat
+- Assets/Stuff/Items/Equipment/SlowTime/SlowTimeEffect.prefab
+- Assets/Stuff/Items/GodTier/ThunderAura/LightningStrikePredictionEffect.prefab
+- Assets/Stuff/Items/Rare/Excalibur/standardSurface1.mat
+- Assets/Stuff/Items/Equipment/SlowTime/SlowTime.asset
+- Assets/Stuff/Items/Enemy/VoidShackles/matVSInterior.mat
+Dependencies:
+- C:/Users/devin/Documents/RoR2SivsContentPack/ExamplePlugin/Assets/sivscontentpack_artifacts
+- C:/Users/devin/Documents/RoR2SivsContentPack/ExamplePlugin/Assets/sivscontentpack_main

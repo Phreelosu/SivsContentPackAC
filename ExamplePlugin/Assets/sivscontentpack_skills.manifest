@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1796164168
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b0ee4ea433aee404b81df19411671db1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7ccc9a12f527bfcc22ff864474ad78cf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1014494200, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1391837873, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: RoR2
+  ClassName: EntityStates.SerializableEntityStateType
+Assets:
+- Assets/Stuff/Skills/False Son/CallLightning.anim
+- Assets/Stuff/Skills/False Son/AltLunarSpikes.asset
+- Assets/Stuff/Skills/False Son/LunarLightning.asset
+- Assets/Stuff/Skills/Huntress/LuckyGlaive.asset
+Dependencies: []

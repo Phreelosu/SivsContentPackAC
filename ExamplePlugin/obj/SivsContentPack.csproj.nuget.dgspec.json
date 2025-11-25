@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Games\\LostItems\\SIVSMOB\\ExamplePlugin\\SivsContentPack.csproj": {}
+  },
+  "projects": {
+    "D:\\Games\\LostItems\\SIVSMOB\\ExamplePlugin\\SivsContentPack.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Games\\LostItems\\SIVSMOB\\ExamplePlugin\\SivsContentPack.csproj",
+        "projectName": "SivsContentPack",
+        "projectPath": "D:\\Games\\LostItems\\SIVSMOB\\ExamplePlugin\\SivsContentPack.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\Games\\LostItems\\SIVSMOB\\ExamplePlugin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "BepInEx.Core": {
+              "target": "Package",
+              "version": "[5.4.21, )"
+            },
+            "MMHOOK.RoR2": {
+              "target": "Package",
+              "version": "[2025.11.19, )",
+              "noWarn": [
+                "NU1701"
+              ]
+            },
+            "R2API.Addressables": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.ArtifactCode": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.Colors": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.ContentManagement": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.DamageType": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.Elites": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.Items": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.Language": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.Orb": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.Prefab": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.RecalculateStats": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.TempVisualEffect": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "R2API.Unlockable": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "RiskOfRain2.GameLibs": {
+              "target": "Package",
+              "version": "[1.4.0-r.0, )"
+            },
+            "RoR2.BepInEx.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.*, )"
+            },
+            "RoR2BepInExPack": {
+              "target": "Package",
+              "version": "[1.36.0, )"
+            },
+            "UnityEngine.Modules": {
+              "target": "Package",
+              "version": "[2021.3.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

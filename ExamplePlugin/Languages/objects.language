@@ -1,0 +1,20 @@
+{
+  "strings": {
+    "OBJECT_LIGHTNINGROD_NAME": "Lightning Rod",
+
+    "OBJECT_ENEMYCHEST_NAME": "Ancient Reliquary",
+    "OBJECT_ENEMYCHEST_CONTEXT": "Open Ancient Reliquary",
+    "OBJECTIVE_OPEN_ENEMYCHEST": "Unlock the <style=cWorldEvent>Ancient Reliquary</style>! ({0}%)",
+    "OBJECT_ENEMYCHEST_DESCRIPTION": "After interacting with the Ancient Reliquary, a hold-out zone will appear. Charge the Ancient Reliquary for 15 seconds, and it will open, rewarding you with an item.",
+    "OBJECT_ENEMYCHEST_FLAVOR": "",
+
+    "OBJECT_BOSSSHRINE_NAME": "Shrine of Judgement",
+    "OBJECT_BOSSSHRINE_CONTEXT": "Activate Shrine of Judgement...?",
+    "OBJECT_BOSSSHRINE_HINT": "Shrine of Judgement ({0})",
+    "OBJECTIVE_BOSSSHRINE_STARTING": "Get ready...",
+    "OBJECTIVE_BOSSSHRINE_DEFEAT_BOSS": "Defeat the Shrine Guardian!",
+    "OBJECT_BOSSSHRINE_DESCRIPTION": "The Shrine of Judgement will provide an <style=cIsDamage>immensely powerful item</style> at the cost of defeating one of multiple unique <style=cShrine>Shrine Guardians</style>. The Shrine of Judgement will deduct <style=cIsHealth>30% of your max health</style> as payment for the remainder of the stage.\n\n<style=cShrine>Shrine Guardians</style> are powerful variants of enemies equipped with <style=cIsDamage>unique item sets</style> tailored to their strengths. Defeating the <style=cShrine>Shrine Guardian</style> will unlock the item hidden within the Shrine of Judgement.",
+    "OBJECT_BOSSSHRINE_FLAVOR": ""
+
+  }
+}

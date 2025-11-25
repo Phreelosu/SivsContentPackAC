@@ -1,0 +1,123 @@
+ManifestFileVersion: 0
+CRC: 759006037
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1b61ea077d093100688bf8bb3678991d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: eb7dc42912f961a26eea606b6b846c1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1297580292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1480773730, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 1144835783, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512185436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1918207524, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 306635731, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 952828898, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1530905962, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 261648291, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -46258121, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1067940895, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -197296741, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1277448904, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1077198318, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -365436499, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1792105662, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1549848242, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -359660931, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -517518216, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -789927658, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -315171339, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1568778350, guid: 050936fea8909af15a3fd3b64da1ff83, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: RoR2
+  ClassName: EntityStates.SerializableEntityStateType
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterEmoteDefinitions/EmoteDef
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterFlightParameters
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterGravityParameters
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterModel/RendererInfo
+- AssemblyName: RoR2
+  ClassName: RoR2.SkillLocator/PassiveSkill
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkHash128
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkSceneId
+Assets:
+- Assets/Stuff/Characters/Reaper/Materials/matReaperScythe.mat
+- Assets/Stuff/Characters/Reaper/Materials/matReaperTrimsheet.mat
+- Assets/Stuff/Characters/Reaper/Materials/matReaperCloak.mat
+- Assets/Stuff/Characters/Reaper/ReaperBody.prefab
+- Assets/Stuff/Characters/Reaper/Materials/matReaperAccessories.mat
+Dependencies: []

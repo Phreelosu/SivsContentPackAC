@@ -1,0 +1,96 @@
+ManifestFileVersion: 0
+CRC: 2407345291
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 72dbee2b148ed35aadaa08e12fa8c5b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 123b5e38058a2c8b0acd23dccc30d1a9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 422384671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 870831823, guid: 6640684985c93709256019488ea570c0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: 802575700, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -875252823, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1479993534, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -432102721, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterModel/RendererInfo
+- AssemblyName: RoR2
+  ClassName: Wave
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.BoolParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.GradingModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Spline
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.SplineParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TextureParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TonemapperParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector4Parameter
+Assets:
+- Assets/Stuff/Characters/ChampionEnemies/ppeChampion.asset
+- Assets/Stuff/Characters/ChampionEnemies/matChampionAura.mat
+- Assets/Stuff/cpSivsContentPack.asset
+- Assets/Stuff/exSivsContentPack.asset
+- Assets/Stuff/MaterialTester/MaterialTester.asset
+- Assets/Stuff/MaterialTester/Material Tester.prefab
+- Assets/Stuff/Characters/ChampionEnemies/DisplayChampionAura.prefab
+- Assets/Stuff/SivsContentPack.asset
+- Assets/Stuff/MaterialTester/matMaterialTester.mat
+- Assets/Stuff/Characters/ChampionEnemies/ChampionAura.asset
+Dependencies: []
