@@ -1,26 +1,27 @@
-﻿using R2API;
+﻿using EntityStates;
+using HarmonyLib;
+using HG;
+using R2API;
 using RoR2;
+using RoR2.Items;
+using RoR2.Navigation;
+using RoR2.Projectile;
+using SivsContentPack;
 using SivsContentPack.Config;
+using SivsContentPack.CustomEntityStates;
+using SivsContentPack.CustomEntityStates.MiniConstructs;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using UnityEngine;
-using SivsContentPack;
-using static SivsContentPack.Config.Configuration.Items;
-using System.Diagnostics;
-using RoR2.Projectile;
 using UnityEngine.AddressableAssets;
-using System.Runtime.CompilerServices;
-using RoR2.Navigation;
-using EntityStates;
-using SivsContentPack.CustomEntityStates.MiniConstructs;
-using System.Linq;
-using System.ComponentModel;
-using System.Collections.ObjectModel;
-using RoR2.Items;
-using SivsContentPack.CustomEntityStates;
-using HG;
-using System.Collections;
+using static SivsContentPack.Config.Configuration.Items;
 
 namespace SivsContentPack.Items
 {
@@ -34,6 +35,7 @@ namespace SivsContentPack.Items
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("displayBeetlePlush");
             this.displayPrefabSitting = Assets.AssetBundles.Items.LoadAsset<GameObject>("displayBeetlePlushSitting");
             wardPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("beetlePlushRegenWard");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -385,6 +387,7 @@ localScale = new Vector3(1F, 1F, 1F)
             Content.ProcTypes.miniWispOnHit = Content.CreateProcType();
             Content.Misc.MiniWispProjectile = Assets.AssetBundles.Items.LoadAsset<GameObject>("MiniWispProjectile");
             ContentAddition.AddProjectile(Content.Misc.MiniWispProjectile);
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -733,6 +736,7 @@ localScale = new Vector3(1F, 1F, 1F)
             tetherEffectPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("TentacleTether");
             tetherAttachment = Assets.AssetBundles.Items.LoadAsset<GameObject>("TentacleTetherOrigin");
             Content.ProcTypes.tentacle = Content.CreateProcType();
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -1247,6 +1251,7 @@ localScale = new Vector3(1F, 1F, 1F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("Geode");
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayGeode");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -1513,6 +1518,7 @@ localScale = new Vector3(2.44245F, 2.44245F, 2.44245F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("ImpsEye");
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayImpEye");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -1888,7 +1894,7 @@ localScale = new Vector3(2.44245F, 2.44245F, 2.44245F)
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("Tarbine");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayTarbine");
             controllerObject = Assets.AssetBundles.Items.LoadAsset<GameObject>("TarbineController");
-
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -2246,6 +2252,7 @@ localScale = new Vector3(0.38326F, 0.38326F, 0.38326F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("IgniteOnHit");
             Content.ProcTypes.igniteOnHit = Content.CreateProcType();
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -2330,6 +2337,7 @@ localScale = new Vector3(0.38326F, 0.38326F, 0.38326F)
             Content.Misc.Smite = Assets.AssetBundles.Items.LoadAsset<GameObject>("Smite");
             ContentAddition.AddProjectile(Content.Misc.Smite);
             Content.ProcTypes.smite = Content.CreateProcType();
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -2647,6 +2655,7 @@ localScale = new Vector3(1F, 1F, 1F)
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("BisonShield");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayBisonShield");
             dashEffect = Assets.AssetBundles.Items.LoadAsset<GameObject>("BisonChargeEffect");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -3065,6 +3074,7 @@ localScale = new Vector3(0.31281F, 0.31281F, 0.31281F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("GriefFlower");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayGriefFlower");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -3348,6 +3358,7 @@ localScale = new Vector3(0.26119F, 0.26119F, 0.26119F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("MeleeAttackSpeed");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -3451,6 +3462,7 @@ localScale = new Vector3(0.26119F, 0.26119F, 0.26119F)
                 pdto.deployableSlot = Content.DeployableSlots.ProjectileKiller;
             }
             ContentAddition.AddProjectile(Content.Misc.ProjectileKillerPrefab);
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -3687,6 +3699,7 @@ localScale = new Vector3(0.26119F, 0.26119F, 0.26119F)
             }
             ContentAddition.AddProjectile(Content.Misc.MushroomWard);
             ContentAddition.AddProjectile(Content.Misc.MushroomSpawner);
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void SubmitItemAsAddressablePair(ref ItemDef itemDef)
         {
@@ -3999,6 +4012,7 @@ localScale = new Vector3(0.18837F, 0.18837F, 0.18837F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("DoubleProjectiles");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -4095,7 +4109,7 @@ localScale = new Vector3(0.18837F, 0.18837F, 0.18837F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("OrbitingConstructs");
             construct = Assets.AssetBundles.Items.LoadAsset<GameObject>("OrbitingConstruct");
-
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -4249,7 +4263,7 @@ localScale = new Vector3(0.18837F, 0.18837F, 0.18837F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("NullSeed");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayNullSeed");
-
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -4563,6 +4577,7 @@ localScale = new Vector3(1F, 1F, 1F)
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("VoidShackles");
             portalPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("VoidShacklePortal");
             chainPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("VoidShackleChain");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -4638,6 +4653,7 @@ localScale = new Vector3(1F, 1F, 1F)
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("FireEye");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayFireEye");
             bodyAttachment = Assets.AssetBundles.Items.LoadAsset<GameObject>("FireEyeBodyAttachment");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -4938,6 +4954,7 @@ localScale = new Vector3(0.14703F, 0.14703F, 0.14703F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("GoldArmorBoost");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayGoldShard");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {

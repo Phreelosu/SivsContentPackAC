@@ -1,19 +1,20 @@
-﻿using HG;
+﻿using HarmonyLib;
+using HG;
 using R2API;
 using RoR2;
+using RoR2.Orbs;
 using RoR2.Projectile;
+using RoR2.Stats;
 using SivsContentPack.Config;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
-using System.Collections.ObjectModel;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
-using RoR2.Stats;
-using System.ComponentModel;
-using RoR2.Orbs;
 
 namespace SivsContentPack.Items
 {
@@ -22,6 +23,7 @@ namespace SivsContentPack.Items
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("HealOnLevelUp");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -289,6 +291,7 @@ namespace SivsContentPack.Items
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("TeleporterArmorZone");
             armorZone = Assets.AssetBundles.Items.LoadAsset<GameObject>("ArmorZone");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
 
         protected override bool CheckIfEnabled()
@@ -635,6 +638,7 @@ namespace SivsContentPack.Items
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("ProjectileBoost");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayThruster");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -965,6 +969,7 @@ localScale = new Vector3(0.57956F, 0.57956F, 0.57956F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("ProjectileBoost");
             Content.DamageTypes.ArmorPiercingLaser = R2API.DamageAPI.ReserveDamageType();
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -1057,6 +1062,7 @@ localScale = new Vector3(0.57956F, 0.57956F, 0.57956F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("RevengeDamageBonus");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -1613,7 +1619,7 @@ localScale = new Vector3(0.43586F, 0.43586F, 0.43586F)
                 {
                     while (enumerator.MoveNext())
                     {
-                        int itemCount = enumerator.Current.inventory.GetItemCount(Content.Items.UpgradeChests);
+                        int itemCount = enumerator.Current.inventory.GetItemCountPermanent(Content.Items.UpgradeChests);
                         if (itemCount > 0)
                         {
                             num++;
@@ -1713,6 +1719,7 @@ localScale = new Vector3(0.43586F, 0.43586F, 0.43586F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("ExtraPrinterRoll");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -1956,6 +1963,7 @@ localScale = new Vector3(0.43586F, 0.43586F, 0.43586F)
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("DropYellowItemOnKill");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayMedal");
             procEffect = Addressables.LoadAssetAsync<GameObject>("RoR2/DLC1/BossHunter/BossHunterKillEffect.prefab").WaitForCompletion();
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -2211,20 +2219,30 @@ localScale = new Vector3(0.23456F, 0.23456F, 0.23456F)
                                     {
                                         Vector3 vector = victim.body.mainHurtBox.transform ? victim.body.mainHurtBox.transform.position : UnityEngine.Vector3.zero;
                                         Vector3 normalized = (vector - attackerBody.corePosition).normalized;
-                                        PickupDropletController.CreatePickupDroplet(deathRewards.bossDropTable.GenerateDrop(Run.instance.bossRewardRng), vector, normalized * 15f);
+                                        PickupDropletController.CreatePickupDroplet(deathRewards.bossDropTable.GeneratePickup(Run.instance.bossRewardRng), vector, normalized * 15f);
                                         Quaternion rotation = RoR2.Util.QuaternionSafeLookRotation(normalized, Vector3.up);
                                         EffectManager.SpawnEffect(procEffect, new EffectData
                                         {
                                             origin = vector,
                                             rotation = rotation
                                         }, true);
-                                        Inventory.ItemTransformation transform = new Inventory.ItemTransformation
+                                        Inventory.ItemTransformation itemTransformation = new Inventory.ItemTransformation
+                                        {
+                                            originalItemIndex = from,
+                                            newItemIndex = to
+                                        };
+
+                                        if (itemTransformation.TryTake(i, out Inventory.ItemTransformation.TakeResult takeResult))
+                                        {
+                                            takeResult.GiveTakenItem(i, itemTransformation.newItemIndex);
+                                        }
+                                        /*Inventory.ItemTransformation transform = new Inventory.ItemTransformation
                                         {
                                             originalItemIndex = from,
                                             newItemIndex = to,
                                             minToTransform = 1,
                                             maxToTransform = 1,
-                                        };
+                                        };*/
                                         //i.RemoveItem(Content.Items.DropYellowItemOnKill, 1);
                                         //i.GiveItem(Content.Items.DropYellowItemOnKillUsed, 1);
                                         CharacterMasterNotificationQueue.PushItemTransformNotification(attackerBody.master, Content.Items.DropYellowItemOnKill.itemIndex, Content.Items.DropYellowItemOnKillUsed.itemIndex, CharacterMasterNotificationQueue.TransformationType.Default);
@@ -2244,6 +2262,7 @@ localScale = new Vector3(0.23456F, 0.23456F, 0.23456F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("DropYellowItemOnKillUsed");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayMedalUsed");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {

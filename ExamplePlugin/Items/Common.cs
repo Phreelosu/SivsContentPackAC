@@ -1,4 +1,5 @@
-﻿using R2API;
+﻿using HarmonyLib;
+using R2API;
 using RoR2;
 using SivsContentPack.Config;
 using System;
@@ -14,6 +15,7 @@ namespace SivsContentPack.Items
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("GlassShield");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayGlassShield");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -247,8 +249,18 @@ localScale = new Vector3(0.29404F, 0.29404F, 0.29404F)
                                     rotation = Quaternion.identity,
                                     rootObject = body.gameObject,
                                 }, true);
-                                inventory.RemoveItemPermanent(Content.Items.GlassShield);
-                                inventory.GiveItemPermanent(Content.Items.GlassShieldBroken);
+                                //inventory.RemoveItemPermanent(Content.Items.GlassShield);
+                                //inventory.GiveItemPermanent(Content.Items.GlassShieldBroken);
+                                Inventory.ItemTransformation itemTransformation = new Inventory.ItemTransformation
+                                {
+                                    originalItemIndex = Content.Items.GlassShield.itemIndex,
+                                    newItemIndex = Content.Items.GlassShieldBroken.itemIndex
+                                };
+
+                                if (itemTransformation.TryTake(inventory, out Inventory.ItemTransformation.TakeResult takeResult))
+                                {
+                                    takeResult.GiveTakenItem(inventory, itemTransformation.newItemIndex);
+                                }
                                 damageInfo.rejected = true;
                                 CharacterMasterNotificationQueue.PushItemTransformNotification(body.master, Content.Items.GlassShield.itemIndex, Content.Items.GlassShieldBroken.itemIndex, CharacterMasterNotificationQueue.TransformationType.Default);
                             }
@@ -264,6 +276,7 @@ localScale = new Vector3(0.29404F, 0.29404F, 0.29404F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("GlassShieldBroken");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -528,6 +541,7 @@ localScale = new Vector3(0.29404F, 0.29404F, 0.29404F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("FlatHealingIncrease");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -795,6 +809,7 @@ localScale = new Vector3(0.29404F, 0.29404F, 0.29404F)
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("ProcBoost");
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayCoin");
             Content.ProcTypes.procBonus = Content.CreateProcType();
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -1073,6 +1088,7 @@ localScale = new Vector3(0.1147F, 0.1147F, 0.1147F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("BoostExperience");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -1308,6 +1324,7 @@ localScale = new Vector3(0.1147F, 0.1147F, 0.1147F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("GoldStar");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -1548,6 +1565,7 @@ localScale = new Vector3(0.1147F, 0.1147F, 0.1147F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("HealOnCooldown");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayWaterBottle");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -1806,6 +1824,7 @@ localScale = new Vector3(0.2202F, 0.2202F, 0.2202F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("Bomb");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -2043,6 +2062,16 @@ localScale = new Vector3(0.29404F, 0.29404F, 0.29404F)
                             };
                             //inventory.RemoveItem(Content.Items.GlassShield);
                             //inventory.GiveItem(Content.Items.GlassShieldBroken);
+                            /*Inventory.ItemTransformation itemTransformation = new Inventory.ItemTransformation
+                            {
+                                originalItemIndex = Content.Items.GlassShield.itemIndex,
+                                newItemIndex = Content.Items.GlassShieldBroken.itemIndex
+                            };
+
+                            if (itemTransformation.TryTake(inventory, out Inventory.ItemTransformation.TakeResult takeResult))
+                            {
+                                takeResult.GiveTakenItem(inventory, itemTransformation.newItemIndex);
+                            }*/
                             damageInfo.rejected = true;
                             CharacterMasterNotificationQueue.PushItemTransformNotification(body.master, Content.Items.GlassShield.itemIndex, Content.Items.GlassShieldBroken.itemIndex, CharacterMasterNotificationQueue.TransformationType.Default);
                         }

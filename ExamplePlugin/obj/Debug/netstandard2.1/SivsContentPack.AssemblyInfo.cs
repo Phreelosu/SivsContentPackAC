@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SivsContentPack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07d46f3290a5b28a6c0d0fa17bc5c3b7e82a20cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SivsContentPack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SivsContentPack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

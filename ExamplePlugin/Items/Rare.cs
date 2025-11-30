@@ -1,13 +1,14 @@
-﻿using R2API;
+﻿using HarmonyLib;
+using R2API;
 using RoR2;
+using SivsContentPack;
 using SivsContentPack.Config;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using UnityEngine;
-using SivsContentPack;
 using static SivsContentPack.Config.Configuration.Items;
-using System.Diagnostics;
 
 
 namespace SivsContentPack.Items
@@ -17,6 +18,7 @@ namespace SivsContentPack.Items
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("HealthBasedDamageBonus");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayHealthBasedDamageBonus");
             Content.ProcTypes.healthBasedDamageBonus = Content.CreateProcType();
         }
@@ -319,6 +321,7 @@ localScale = new Vector3(5.52051F, 5.52051F, 5.52051F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("BlockLowDamageHits");
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayBlockLowDamageHits");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -604,6 +607,7 @@ localScale = new Vector3(0.24028F, 0.24028F, 0.24028F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("FrenzyOnBossKill");
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayFrenzyOnBossKill");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -862,6 +866,7 @@ localScale = new Vector3(4.37066F, 4.37066F, 4.37066F)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("Shieldbreaker");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayShieldbreaker");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override void HandleMaterials()
         {
@@ -1117,6 +1122,7 @@ localScale = new Vector3(4.28787F, 4.28787F, 4.28787F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("Placebo");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayPill");
             Content.ProcTypes.placebo = Content.CreateProcType();
         }

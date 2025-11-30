@@ -48,7 +48,7 @@ namespace SivsContentPack
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "Sivelos";
         public const string PluginName = "SivsContentPack";
-        public const string PluginVersion = "1.3.1";
+        public const string PluginVersion = "1.4.0";
         public const string ModPrefix = "@SivsContentPack:";
 
         public static PluginInfo PInfo { get; private set; }

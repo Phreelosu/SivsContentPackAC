@@ -7,6 +7,7 @@ using SivsContentPack.Config;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Text;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -19,6 +20,7 @@ namespace SivsContentPack.Items
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("EnergyDrinkVoid");
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayVoidSoda");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -321,6 +323,7 @@ localScale = new Vector3(0.4F, 0.4F, 0.4F)
             EntityStateMachine.FindByCustomName(Content.Misc.VoidMine, "Main").initialStateType = Content.SerializableEntityStates.EntityStateDictionary["VoidMine_Arming"];
             Content.contentPack.projectilePrefabs.AddItem<GameObject>(Content.Misc.VoidMine);
             Content.ProcTypes.stickyBombVoid = Content.CreateProcType();
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {
@@ -618,6 +621,7 @@ localScale = new Vector3(0.4F, 0.4F, 0.4F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("StickyBombVoid");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
         }
         protected override bool CheckIfEnabled()
         {

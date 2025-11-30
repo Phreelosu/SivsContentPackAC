@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using System.IO;
+using IL.RoR2;
+using RoR2;
+using R2API;
 
 namespace SivsContentPack
 {
@@ -28,7 +31,7 @@ namespace SivsContentPack
         //The direct path to your AssetBundle
         public static string AssetBundlePath(string bundleName)
         {
-            return Path.Combine(Path.GetDirectoryName(SivsContentPack.PInfo.Location), assetBundleFolder, bundleName);
+            return System.IO.Path.Combine(System.IO.Path.GetDirectoryName(SivsContentPack.PInfo.Location), assetBundleFolder, bundleName);
         }
 
         public static void Init()
@@ -40,6 +43,10 @@ namespace SivsContentPack
             AssetBundles.Artifacts = AssetBundle.LoadFromFile(AssetBundlePath("sivscontentpack_artifacts"));
             AssetBundles.Objects = AssetBundle.LoadFromFile(AssetBundlePath("sivscontentpack_objects"));
             AssetBundles.Champions = AssetBundle.LoadFromFile(AssetBundlePath("sivscontentpack_champions"));
+
+            RoR2.ItemTierDef godTier = AssetBundles.Items.LoadAsset<RoR2.ItemTierDef>("itdGodTier.asset");
+            godTier._tier = ItemTier.AssignedAtRuntime;
+            ContentAddition.AddItemTierDef(godTier);
         }
     }
 }

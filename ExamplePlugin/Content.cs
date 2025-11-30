@@ -539,7 +539,7 @@ namespace SivsContentPack
                 new SlowTime().Init(ref Content.Items.SlowTime);
                 //new ChargingLaser().Init(ref Content.Items.ChargingLaser); // untested
 
-                new StickyBombVoid().Init(ref Content.Items.StickyBombVoid); // untested
+                //new StickyBombVoid().Init(ref Content.Items.StickyBombVoid); // untested
                 //new EnergyDrinkVoid().Init(ref Content.Items.EnergyDrinkVoid); // untested
 
                 new BeetlePlush().Init(ref Content.Items.BeetlePlush);

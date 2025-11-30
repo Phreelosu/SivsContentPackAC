@@ -327,6 +327,7 @@ namespace SivsContentPack.Items
         protected override void LoadAssets(ref EquipmentDef equipmentDef)
         {
             equipmentDef = Assets.AssetBundles.Items.LoadAsset<EquipmentDef>("DeathImmunity");
+            equipmentDef.nameToken = "Angel Statuette";
         }
 
         protected override bool CheckIfEnabled()

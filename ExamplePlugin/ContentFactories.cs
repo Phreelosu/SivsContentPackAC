@@ -54,6 +54,7 @@ namespace SivsContentPack
             SubmitItemAsAddressablePair(ref itemDef);
             Debug.LogFormat("Loaded item {0} and submitted to content pack.", itemDef.name);
         }
+
         protected virtual bool CheckIfEnabled()
         {
             return true;

@@ -137,7 +137,7 @@ namespace SivsContentPack.Items
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("GodMode");
-            itemDef.tier = GodTier.instance.itemTierDef.tier;
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayGodMode");
             brotherDisplay = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayBrotherGodmode");
             Content.Misc.GodModeShockwave = Assets.AssetBundles.Items.LoadAsset<GameObject>("LunarShockwave");
@@ -934,7 +934,7 @@ localScale = new Vector3(2.49599F, 2.49599F, 2.49599F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("VoidEye");
-            
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
             displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayVoidEye");
             voidlingDisplay = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayVoidEyeRaidCrab");
             fogWard = Assets.AssetBundles.Items.LoadAsset<GameObject>("VoidEyeBodyAttachment");
@@ -1607,6 +1607,7 @@ localScale = new Vector3(10F, 10F, 10F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("ThunderAura");
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayThunderAura");
             thunderStormDisplay = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayThunderStorm");
             Content.Misc.ThunderAuraLightning = Assets.AssetBundles.Items.LoadAsset<GameObject>("ThunderAuraStrike");
@@ -2345,7 +2346,7 @@ localScale = new Vector3(1F, 1F, 1F)
         protected override void LoadAssets(ref ItemDef itemDef)
         {
             itemDef = Assets.AssetBundles.Items.LoadAsset<ItemDef>("LunarRosary");
-            
+            itemDef.tags.AddToArray<ItemTag>(ItemTag.CanBeTemporary);
             this.displayPrefab = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayLunarRosary");
             spikeDisplay = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayLunarRosarySpike");
             spikeClusterDisplay = Assets.AssetBundles.Items.LoadAsset<GameObject>("DisplayLunarRosarySpikeCluster");

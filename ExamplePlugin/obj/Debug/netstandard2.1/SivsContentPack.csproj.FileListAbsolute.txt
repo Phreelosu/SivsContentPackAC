@@ -19,3 +19,4 @@ D:\Games\LostItems\SIVSMOB\ExamplePlugin\obj\Debug\netstandard2.1\SivsContentPac
 D:\Games\LostItems\SIVSMOB\ExamplePlugin\bin\Debug\netstandard2.1\SivsContentPack.deps.json
 D:\Games\LostItems\SIVSMOB\ExamplePlugin\bin\Debug\netstandard2.1\SivsContentPack.dll
 D:\Games\LostItems\SIVSMOB\ExamplePlugin\bin\Debug\netstandard2.1\SivsContentPack.pdb
+D:\Games\LostItems\SIVSMOB\ExamplePlugin\obj\Debug\netstandard2.1\SivsContentPack.sourcelink.json
